@@ -1,0 +1,4963 @@
+[
+  
+    {
+        "basePoint": {
+            "lat": 40.60611798,
+            "lng": 109.84262366,
+            "pointBh": 0
+        },
+        "basePointAngle": 175.33,
+        "carHeardDirection": 175.33,
+        "time": "2024-08-19 17:37:11.317"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611494166667,
+            "lng": 109.84262417333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 171.38,
+        "carHeardDirection": 171.38,
+        "time": "2024-08-19 17:37:11.521"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611316,
+            "lng": 109.842624545,
+            "pointBh": 0
+        },
+        "basePointAngle": 170.67,
+        "carHeardDirection": 170.67,
+        "time": "2024-08-19 17:37:11.728"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611130166667,
+            "lng": 109.84262501666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 168.81,
+        "carHeardDirection": 168.81,
+        "time": "2024-08-19 17:37:11.939"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606109286666666,
+            "lng": 109.84262550833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 167.45,
+        "carHeardDirection": 167.45,
+        "time": "2024-08-19 17:37:12.145"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606109286666666,
+            "lng": 109.84262550833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 167.45,
+        "carHeardDirection": 167.45,
+        "time": "2024-08-19 17:37:12.356"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610506166667,
+            "lng": 109.842626655,
+            "pointBh": 0
+        },
+        "basePointAngle": 167.27,
+        "carHeardDirection": 167.27,
+        "time": "2024-08-19 17:37:12.560"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606102845,
+            "lng": 109.84262732500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 167.38,
+        "carHeardDirection": 167.38,
+        "time": "2024-08-19 17:37:12.769"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610055833333,
+            "lng": 109.84262795666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 169.45,
+        "carHeardDirection": 169.45,
+        "time": "2024-08-19 17:37:12.970"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609816833333,
+            "lng": 109.84262865333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 167.79,
+        "carHeardDirection": 167.79,
+        "time": "2024-08-19 17:37:13.174"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609574666667,
+            "lng": 109.84262936833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 167.79,
+        "carHeardDirection": 167.79,
+        "time": "2024-08-19 17:37:13.379"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606093253333334,
+            "lng": 109.84263003166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 167.45,
+        "carHeardDirection": 167.45,
+        "time": "2024-08-19 17:37:13.583"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609069833333,
+            "lng": 109.84263069833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 168.27,
+        "carHeardDirection": 168.27,
+        "time": "2024-08-19 17:37:13.788"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606088144999994,
+            "lng": 109.84263134666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 168.46,
+        "carHeardDirection": 168.46,
+        "time": "2024-08-19 17:37:13.996"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608559,
+            "lng": 109.84263192666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 171.77,
+        "carHeardDirection": 171.77,
+        "time": "2024-08-19 17:37:14.201"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608302,
+            "lng": 109.84263246833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 171.77,
+        "carHeardDirection": 171.77,
+        "time": "2024-08-19 17:37:14.419"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608040666667,
+            "lng": 109.842632845,
+            "pointBh": 0
+        },
+        "basePointAngle": 173.89,
+        "carHeardDirection": 173.89,
+        "time": "2024-08-19 17:37:14.622"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607781833333,
+            "lng": 109.84263320333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 171.69,
+        "carHeardDirection": 171.69,
+        "time": "2024-08-19 17:37:14.826"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607517333334,
+            "lng": 109.84263331666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 178.94,
+        "carHeardDirection": 178.94,
+        "time": "2024-08-19 17:37:15.038"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606072581666666,
+            "lng": 109.84263335833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 179.9,
+        "carHeardDirection": 179.9,
+        "time": "2024-08-19 17:37:15.241"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606069991666665,
+            "lng": 109.84263350166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 178.42,
+        "carHeardDirection": 178.42,
+        "time": "2024-08-19 17:37:15.449"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606064966666665,
+            "lng": 109.84263325166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.6,
+        "carHeardDirection": 180.6,
+        "time": "2024-08-19 17:37:15.659"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606064966666665,
+            "lng": 109.84263325166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.6,
+        "carHeardDirection": 180.6,
+        "time": "2024-08-19 17:37:15.864"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606009166667,
+            "lng": 109.84263297500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.85,
+        "carHeardDirection": 182.85,
+        "time": "2024-08-19 17:37:16.069"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606009166667,
+            "lng": 109.84263297500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.85,
+        "carHeardDirection": 182.85,
+        "time": "2024-08-19 17:37:16.273"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606055535,
+            "lng": 109.84263276499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.85,
+        "carHeardDirection": 180.85,
+        "time": "2024-08-19 17:37:16.476"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606053335,
+            "lng": 109.84263266833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.87,
+        "carHeardDirection": 182.87,
+        "time": "2024-08-19 17:37:16.680"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606053335,
+            "lng": 109.84263266833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.87,
+        "carHeardDirection": 182.87,
+        "time": "2024-08-19 17:37:16.885"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606049148333334,
+            "lng": 109.84263257666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.87,
+        "carHeardDirection": 180.87,
+        "time": "2024-08-19 17:37:17.093"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604707666666,
+            "lng": 109.84263254000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.87,
+        "carHeardDirection": 180.87,
+        "time": "2024-08-19 17:37:17.298"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604504166667,
+            "lng": 109.84263249833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.71,
+        "carHeardDirection": 180.71,
+        "time": "2024-08-19 17:37:17.505"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604307166667,
+            "lng": 109.84263243666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.57,
+        "carHeardDirection": 182.57,
+        "time": "2024-08-19 17:37:17.712"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606041185,
+            "lng": 109.84263252166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 178.33,
+        "carHeardDirection": 178.33,
+        "time": "2024-08-19 17:37:17.918"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603931,
+            "lng": 109.842632435,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.46,
+        "carHeardDirection": 180.46,
+        "time": "2024-08-19 17:37:18.125"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606037495,
+            "lng": 109.84263249833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.46,
+        "carHeardDirection": 180.46,
+        "time": "2024-08-19 17:37:18.342"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606035659999996,
+            "lng": 109.84263247833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 180.11,
+        "carHeardDirection": 180.11,
+        "time": "2024-08-19 17:37:18.546"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606033886666665,
+            "lng": 109.84263250666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 178.26,
+        "carHeardDirection": 178.26,
+        "time": "2024-08-19 17:37:18.751"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603220166667,
+            "lng": 109.84263251833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 177.94,
+        "carHeardDirection": 177.94,
+        "time": "2024-08-19 17:37:18.958"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603060166667,
+            "lng": 109.84263255666669,
+            "pointBh": 0
+        },
+        "basePointAngle": 177.16,
+        "carHeardDirection": 177.16,
+        "time": "2024-08-19 17:37:19.163"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606029156666665,
+            "lng": 109.84263250999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 177.16,
+        "carHeardDirection": 177.16,
+        "time": "2024-08-19 17:37:19.373"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602786166667,
+            "lng": 109.84263249333331,
+            "pointBh": 0
+        },
+        "basePointAngle": 179.32,
+        "carHeardDirection": 179.32,
+        "time": "2024-08-19 17:37:19.578"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606026668333335,
+            "lng": 109.84263244166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.3,
+        "carHeardDirection": 182.3,
+        "time": "2024-08-19 17:37:19.778"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606025671666664,
+            "lng": 109.84263239166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 181.05,
+        "carHeardDirection": 181.05,
+        "time": "2024-08-19 17:37:19.983"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606024911666665,
+            "lng": 109.842632395,
+            "pointBh": 0
+        },
+        "basePointAngle": 179.15,
+        "carHeardDirection": 179.15,
+        "time": "2024-08-19 17:37:20.187"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606024911666665,
+            "lng": 109.842632395,
+            "pointBh": 0
+        },
+        "basePointAngle": 179.15,
+        "carHeardDirection": 179.15,
+        "time": "2024-08-19 17:37:20.392"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023918333335,
+            "lng": 109.84263239666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:20.598"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023645,
+            "lng": 109.84263240666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:20.805"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602353833334,
+            "lng": 109.84263237666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:21.012"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602349333333,
+            "lng": 109.84263238833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:21.223"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602351833334,
+            "lng": 109.84263239833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:21.422"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023525,
+            "lng": 109.842632415,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:21.626"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602350333333,
+            "lng": 109.842632395,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:21.830"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602351166666,
+            "lng": 109.8426324,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:22.036"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602352,
+            "lng": 109.84263238,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:22.239"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023535,
+            "lng": 109.84263238,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:22.444"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602351166666,
+            "lng": 109.84263238166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:22.648"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602351,
+            "lng": 109.84263237833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:22.854"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023445,
+            "lng": 109.84263238833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:23.057"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023445,
+            "lng": 109.84263238833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:23.261"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023443333335,
+            "lng": 109.84263240333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:23.469"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602345666667,
+            "lng": 109.84263239666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:23.674"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602345666667,
+            "lng": 109.84263239666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:23.878"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023433333334,
+            "lng": 109.84263239333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:24.084"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023433333334,
+            "lng": 109.84263239333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:24.287"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602343166667,
+            "lng": 109.84263239166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:24.492"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602342166667,
+            "lng": 109.84263238500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:24.694"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602341833333,
+            "lng": 109.84263239166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:24.898"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602343,
+            "lng": 109.84263239666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:25.102"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602343,
+            "lng": 109.84263239666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:25.305"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602342333333,
+            "lng": 109.84263238666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:25.509"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602343666667,
+            "lng": 109.84263239833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:25.713"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602343666667,
+            "lng": 109.84263240666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:25.919"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023449999995,
+            "lng": 109.84263238999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:26.122"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023449999995,
+            "lng": 109.84263238999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:26.330"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023453333336,
+            "lng": 109.842632405,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:26.534"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602345166667,
+            "lng": 109.84263239666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:26.741"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602344833333,
+            "lng": 109.84263238666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:26.945"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023445,
+            "lng": 109.84263241,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:27.150"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023445,
+            "lng": 109.84263241,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:27.354"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602344666667,
+            "lng": 109.84263238500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:27.558"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023459999996,
+            "lng": 109.84263239333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:27.764"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023465,
+            "lng": 109.84263241,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:27.968"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023495,
+            "lng": 109.842632415,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:28.177"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602348,
+            "lng": 109.842632395,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:28.381"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023488333335,
+            "lng": 109.842632405,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:28.585"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023496666666,
+            "lng": 109.84263241,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:28.788"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602349,
+            "lng": 109.84263241,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:28.992"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023496666666,
+            "lng": 109.84263239333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:29.197"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023496666666,
+            "lng": 109.84263239333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:29.401"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602349333333,
+            "lng": 109.842632405,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:29.604"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602350833334,
+            "lng": 109.84263238999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:29.808"
+    },
+    {
+        "basePoint": {
+            "lat": 40.6060235,
+            "lng": 109.84263238666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:30.014"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023496666666,
+            "lng": 109.84263238333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:30.219"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602350833334,
+            "lng": 109.84263238166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:30.423"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023496666666,
+            "lng": 109.8426324,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:30.630"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602349166666,
+            "lng": 109.84263240333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:30.831"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602350166666,
+            "lng": 109.84263239333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:31.035"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602351,
+            "lng": 109.84263238,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:31.239"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606023575,
+            "lng": 109.842632405,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:31.444"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602376333333,
+            "lng": 109.842632395,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.72,
+        "carHeardDirection": 176.72,
+        "time": "2024-08-19 17:37:31.649"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606024094999995,
+            "lng": 109.84263240666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 4.28,
+        "carHeardDirection": 184.28,
+        "time": "2024-08-19 17:37:31.853"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602487333333,
+            "lng": 109.842632405,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.97,
+        "carHeardDirection": 179.97000000000003,
+        "time": "2024-08-19 17:37:32.060"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602487333333,
+            "lng": 109.842632405,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.97,
+        "carHeardDirection": 179.97000000000003,
+        "time": "2024-08-19 17:37:32.268"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606025425,
+            "lng": 109.842632415,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.97,
+        "carHeardDirection": 179.97000000000003,
+        "time": "2024-08-19 17:37:32.473"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602682666667,
+            "lng": 109.84263245166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.52,
+        "carHeardDirection": 180.52,
+        "time": "2024-08-19 17:37:32.679"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60602682666667,
+            "lng": 109.84263245166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.52,
+        "carHeardDirection": 180.52,
+        "time": "2024-08-19 17:37:32.893"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606028564999995,
+            "lng": 109.84263248666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.24,
+        "carHeardDirection": 183.24,
+        "time": "2024-08-19 17:37:33.097"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606028564999995,
+            "lng": 109.84263248666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.24,
+        "carHeardDirection": 183.24,
+        "time": "2024-08-19 17:37:33.301"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606030276666665,
+            "lng": 109.842632495,
+            "pointBh": 0
+        },
+        "basePointAngle": 2.87,
+        "carHeardDirection": 182.87,
+        "time": "2024-08-19 17:37:33.505"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603112666667,
+            "lng": 109.84263249666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.71,
+        "carHeardDirection": 179.70999999999998,
+        "time": "2024-08-19 17:37:33.709"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606031970000004,
+            "lng": 109.84263251166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 2.83,
+        "carHeardDirection": 182.83,
+        "time": "2024-08-19 17:37:33.915"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603271,
+            "lng": 109.84263251833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.65,
+        "carHeardDirection": 180.65,
+        "time": "2024-08-19 17:37:34.125"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603271,
+            "lng": 109.84263251833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.65,
+        "carHeardDirection": 180.65,
+        "time": "2024-08-19 17:37:34.324"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606034065,
+            "lng": 109.84263252833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 357.1,
+        "carHeardDirection": 177.10000000000002,
+        "time": "2024-08-19 17:37:34.531"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606034745,
+            "lng": 109.84263253166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.53,
+        "carHeardDirection": 179.52999999999997,
+        "time": "2024-08-19 17:37:34.741"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606035336666665,
+            "lng": 109.84263255833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 2.18,
+        "carHeardDirection": 182.18,
+        "time": "2024-08-19 17:37:34.945"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606035965000004,
+            "lng": 109.84263261166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 4.54,
+        "carHeardDirection": 184.54,
+        "time": "2024-08-19 17:37:35.150"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606036535,
+            "lng": 109.84263262166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 4.54,
+        "carHeardDirection": 184.54,
+        "time": "2024-08-19 17:37:35.359"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606037111666666,
+            "lng": 109.84263262166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.53,
+        "carHeardDirection": 179.52999999999997,
+        "time": "2024-08-19 17:37:35.558"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603769,
+            "lng": 109.84263262666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 358.42,
+        "carHeardDirection": 178.42000000000002,
+        "time": "2024-08-19 17:37:35.762"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606038276666666,
+            "lng": 109.84263264166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 2.05,
+        "carHeardDirection": 182.05,
+        "time": "2024-08-19 17:37:35.967"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60603891,
+            "lng": 109.84263266333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.12,
+        "carHeardDirection": 179.12,
+        "time": "2024-08-19 17:37:36.173"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606039545,
+            "lng": 109.84263270000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.12,
+        "carHeardDirection": 179.12,
+        "time": "2024-08-19 17:37:36.379"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604016,
+            "lng": 109.84263277666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.54,
+        "carHeardDirection": 183.54,
+        "time": "2024-08-19 17:37:36.583"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604077666667,
+            "lng": 109.84263284833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 4.96,
+        "carHeardDirection": 184.96,
+        "time": "2024-08-19 17:37:36.789"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604142666667,
+            "lng": 109.84263294166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 5.67,
+        "carHeardDirection": 185.67,
+        "time": "2024-08-19 17:37:36.996"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604215666667,
+            "lng": 109.84263306833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 9.5,
+        "carHeardDirection": 189.5,
+        "time": "2024-08-19 17:37:37.197"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606042798333334,
+            "lng": 109.84263317833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 9.5,
+        "carHeardDirection": 189.5,
+        "time": "2024-08-19 17:37:37.400"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606043500000006,
+            "lng": 109.84263329333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 5.14,
+        "carHeardDirection": 185.14,
+        "time": "2024-08-19 17:37:37.604"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604415666667,
+            "lng": 109.84263338000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.28,
+        "carHeardDirection": 183.28,
+        "time": "2024-08-19 17:37:37.810"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604482666667,
+            "lng": 109.84263344499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 5.17,
+        "carHeardDirection": 185.17,
+        "time": "2024-08-19 17:37:38.015"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604542833333,
+            "lng": 109.84263346833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 359.49,
+        "carHeardDirection": 179.49,
+        "time": "2024-08-19 17:37:38.220"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604602833334,
+            "lng": 109.84263349,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.12,
+        "carHeardDirection": 180.12,
+        "time": "2024-08-19 17:37:38.430"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604661833334,
+            "lng": 109.84263352333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.22,
+        "carHeardDirection": 183.22,
+        "time": "2024-08-19 17:37:38.637"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604718333333,
+            "lng": 109.84263355666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 2.59,
+        "carHeardDirection": 182.59,
+        "time": "2024-08-19 17:37:38.846"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604828333333,
+            "lng": 109.84263354333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.3,
+        "carHeardDirection": 178.70999999999998,
+        "time": "2024-08-19 17:37:39.054"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60604828333333,
+            "lng": 109.84263354333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 358.71,
+        "carHeardDirection": 178.70999999999998,
+        "time": "2024-08-19 17:37:39.261"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606049336666665,
+            "lng": 109.84263349833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 358.09,
+        "carHeardDirection": 178.08999999999997,
+        "time": "2024-08-19 17:37:39.466"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606049793333334,
+            "lng": 109.84263347,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.9,
+        "carHeardDirection": 180.9,
+        "time": "2024-08-19 17:37:39.672"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606049793333334,
+            "lng": 109.84263347,
+            "pointBh": 0
+        },
+        "basePointAngle": 0.9,
+        "carHeardDirection": 180.9,
+        "time": "2024-08-19 17:37:39.874"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605078333333,
+            "lng": 109.84263342000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 353.72,
+        "carHeardDirection": 173.72000000000003,
+        "time": "2024-08-19 17:37:40.078"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605078333333,
+            "lng": 109.84263342000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 353.72,
+        "carHeardDirection": 173.72000000000003,
+        "time": "2024-08-19 17:37:40.282"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605130333333,
+            "lng": 109.84263333833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 349.13,
+        "carHeardDirection": 169.13,
+        "time": "2024-08-19 17:37:40.488"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605259166667,
+            "lng": 109.84263312166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 351.66,
+        "carHeardDirection": 171.66000000000003,
+        "time": "2024-08-19 17:37:40.694"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606053315000004,
+            "lng": 109.84263299333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 351.66,
+        "carHeardDirection": 171.66000000000003,
+        "time": "2024-08-19 17:37:40.901"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605407833334,
+            "lng": 109.84263287833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 348.89,
+        "carHeardDirection": 168.89,
+        "time": "2024-08-19 17:37:41.109"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605483833333,
+            "lng": 109.84263264333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 348.89,
+        "carHeardDirection": 168.89,
+        "time": "2024-08-19 17:37:41.313"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606055616666666,
+            "lng": 109.84263248500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 350.98,
+        "carHeardDirection": 170.98000000000002,
+        "time": "2024-08-19 17:37:41.522"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605637333333,
+            "lng": 109.84263218333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 344.42,
+        "carHeardDirection": 164.42000000000002,
+        "time": "2024-08-19 17:37:41.728"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606057129999996,
+            "lng": 109.84263193666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 348.05,
+        "carHeardDirection": 168.05,
+        "time": "2024-08-19 17:37:41.927"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605782333334,
+            "lng": 109.84263165333331,
+            "pointBh": 0
+        },
+        "basePointAngle": 343.08,
+        "carHeardDirection": 163.07999999999998,
+        "time": "2024-08-19 17:37:42.131"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60605782333334,
+            "lng": 109.84263165333331,
+            "pointBh": 0
+        },
+        "basePointAngle": 343.08,
+        "carHeardDirection": 163.07999999999998,
+        "time": "2024-08-19 17:37:42.335"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606059368333334,
+            "lng": 109.84263103666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 342.59,
+        "carHeardDirection": 162.58999999999997,
+        "time": "2024-08-19 17:37:42.539"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606012833333,
+            "lng": 109.84263068833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 342.98,
+        "carHeardDirection": 162.98000000000002,
+        "time": "2024-08-19 17:37:42.749"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606060875000004,
+            "lng": 109.84263029333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 338.32,
+        "carHeardDirection": 158.32,
+        "time": "2024-08-19 17:37:42.951"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606164833334,
+            "lng": 109.84262988833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 339.49,
+        "carHeardDirection": 159.49,
+        "time": "2024-08-19 17:37:43.158"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606164833334,
+            "lng": 109.84262988833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 339.49,
+        "carHeardDirection": 159.49,
+        "time": "2024-08-19 17:37:43.367"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606314333334,
+            "lng": 109.84262900333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 334.72,
+        "carHeardDirection": 154.72000000000003,
+        "time": "2024-08-19 17:37:43.567"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606386166667,
+            "lng": 109.84262853666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 333.67,
+        "carHeardDirection": 153.67000000000002,
+        "time": "2024-08-19 17:37:43.772"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606451,
+            "lng": 109.84262808999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 334.24,
+        "carHeardDirection": 154.24,
+        "time": "2024-08-19 17:37:43.975"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606065165000004,
+            "lng": 109.84262761500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 331.02,
+        "carHeardDirection": 151.01999999999998,
+        "time": "2024-08-19 17:37:44.180"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606065165000004,
+            "lng": 109.84262761500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 331.02,
+        "carHeardDirection": 151.01999999999998,
+        "time": "2024-08-19 17:37:44.385"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606066383333335,
+            "lng": 109.84262668499998,
+            "pointBh": 0
+        },
+        "basePointAngle": 331.12,
+        "carHeardDirection": 151.12,
+        "time": "2024-08-19 17:37:44.589"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606066901666665,
+            "lng": 109.84262621,
+            "pointBh": 0
+        },
+        "basePointAngle": 324.1,
+        "carHeardDirection": 144.10000000000002,
+        "time": "2024-08-19 17:37:44.798"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606067445,
+            "lng": 109.84262571333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 322.92,
+        "carHeardDirection": 142.92000000000002,
+        "time": "2024-08-19 17:37:45.002"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606067931666665,
+            "lng": 109.84262526666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 328.31,
+        "carHeardDirection": 148.31,
+        "time": "2024-08-19 17:37:45.207"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606067931666665,
+            "lng": 109.84262526666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 328.31,
+        "carHeardDirection": 148.31,
+        "time": "2024-08-19 17:37:45.418"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606068928333336,
+            "lng": 109.84262435666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 325.41,
+        "carHeardDirection": 145.41000000000003,
+        "time": "2024-08-19 17:37:45.616"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60606937666667,
+            "lng": 109.84262388166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 321.1,
+        "carHeardDirection": 141.10000000000002,
+        "time": "2024-08-19 17:37:45.820"
+    },
+    {
+        "basePoint": {
+            "lat": 40.6060698,
+            "lng": 109.84262341,
+            "pointBh": 0
+        },
+        "basePointAngle": 320.38,
+        "carHeardDirection": 140.38,
+        "time": "2024-08-19 17:37:46.024"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607018333334,
+            "lng": 109.84262296333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 321.01,
+        "carHeardDirection": 141.01,
+        "time": "2024-08-19 17:37:46.236"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607051333333,
+            "lng": 109.842622555,
+            "pointBh": 0
+        },
+        "basePointAngle": 319.06,
+        "carHeardDirection": 139.06,
+        "time": "2024-08-19 17:37:46.438"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606070818333336,
+            "lng": 109.84262218999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 322.91,
+        "carHeardDirection": 142.91000000000003,
+        "time": "2024-08-19 17:37:46.643"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607111666666,
+            "lng": 109.84262183999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 317.79,
+        "carHeardDirection": 137.79000000000002,
+        "time": "2024-08-19 17:37:46.848"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606071459999995,
+            "lng": 109.84262144666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 320.59,
+        "carHeardDirection": 140.58999999999997,
+        "time": "2024-08-19 17:37:47.055"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606071834999995,
+            "lng": 109.84262099833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 315.78,
+        "carHeardDirection": 135.77999999999997,
+        "time": "2024-08-19 17:37:47.256"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607263,
+            "lng": 109.84261993,
+            "pointBh": 0
+        },
+        "basePointAngle": 313.35,
+        "carHeardDirection": 133.35000000000002,
+        "time": "2024-08-19 17:37:47.463"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606073075000005,
+            "lng": 109.84261934833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 316.14,
+        "carHeardDirection": 136.14,
+        "time": "2024-08-19 17:37:47.666"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606073075000005,
+            "lng": 109.84261934833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 316.14,
+        "carHeardDirection": 136.14,
+        "time": "2024-08-19 17:37:47.871"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607402,
+            "lng": 109.84261800333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 310.44,
+        "carHeardDirection": 130.44,
+        "time": "2024-08-19 17:37:48.074"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607402,
+            "lng": 109.84261800333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 310.44,
+        "carHeardDirection": 130.44,
+        "time": "2024-08-19 17:37:48.281"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607496,
+            "lng": 109.84261646833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 306.35,
+        "carHeardDirection": 126.35000000000002,
+        "time": "2024-08-19 17:37:48.486"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607545833333,
+            "lng": 109.84261564666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 308.34,
+        "carHeardDirection": 128.33999999999997,
+        "time": "2024-08-19 17:37:48.697"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607545833333,
+            "lng": 109.84261564666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 308.34,
+        "carHeardDirection": 128.33999999999997,
+        "time": "2024-08-19 17:37:48.907"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607634666667,
+            "lng": 109.84261400166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 303.3,
+        "carHeardDirection": 123.30000000000001,
+        "time": "2024-08-19 17:37:49.112"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607634666667,
+            "lng": 109.84261400166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 303.3,
+        "carHeardDirection": 123.30000000000001,
+        "time": "2024-08-19 17:37:49.317"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607708,
+            "lng": 109.84261232666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 298.17,
+        "carHeardDirection": 118.17000000000002,
+        "time": "2024-08-19 17:37:49.521"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607743,
+            "lng": 109.842611445,
+            "pointBh": 0
+        },
+        "basePointAngle": 293.68,
+        "carHeardDirection": 113.68,
+        "time": "2024-08-19 17:37:49.725"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607775833333,
+            "lng": 109.84261057999998,
+            "pointBh": 0
+        },
+        "basePointAngle": 295.37,
+        "carHeardDirection": 115.37,
+        "time": "2024-08-19 17:37:49.937"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607806166667,
+            "lng": 109.84260970166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 293.57,
+        "carHeardDirection": 113.57,
+        "time": "2024-08-19 17:37:50.136"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607806166667,
+            "lng": 109.84260970166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 293.57,
+        "carHeardDirection": 113.57,
+        "time": "2024-08-19 17:37:50.340"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607866333333,
+            "lng": 109.84260788666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 296.01,
+        "carHeardDirection": 116.00999999999999,
+        "time": "2024-08-19 17:37:50.544"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607896333333,
+            "lng": 109.84260696333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 293.7,
+        "carHeardDirection": 113.69999999999999,
+        "time": "2024-08-19 17:37:50.750"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60607926333333,
+            "lng": 109.84260606833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 296.57,
+        "carHeardDirection": 116.57,
+        "time": "2024-08-19 17:37:50.956"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606079568333335,
+            "lng": 109.842605135,
+            "pointBh": 0
+        },
+        "basePointAngle": 295.1,
+        "carHeardDirection": 115.10000000000002,
+        "time": "2024-08-19 17:37:51.170"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606079568333335,
+            "lng": 109.842605135,
+            "pointBh": 0
+        },
+        "basePointAngle": 295.1,
+        "carHeardDirection": 115.10000000000002,
+        "time": "2024-08-19 17:37:51.379"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608017333333,
+            "lng": 109.842603215,
+            "pointBh": 0
+        },
+        "basePointAngle": 288.06,
+        "carHeardDirection": 108.06,
+        "time": "2024-08-19 17:37:51.583"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606080473333336,
+            "lng": 109.842602305,
+            "pointBh": 0
+        },
+        "basePointAngle": 297.13,
+        "carHeardDirection": 117.13,
+        "time": "2024-08-19 17:37:51.789"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606080731666665,
+            "lng": 109.84260137166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 288.14,
+        "carHeardDirection": 108.13999999999999,
+        "time": "2024-08-19 17:37:51.996"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606081016666664,
+            "lng": 109.84260049333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 292.46,
+        "carHeardDirection": 112.45999999999998,
+        "time": "2024-08-19 17:37:52.211"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608124666667,
+            "lng": 109.84259965666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 292.46,
+        "carHeardDirection": 110.42000000000002,
+        "time": "2024-08-19 17:37:52.418"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608149166667,
+            "lng": 109.84259885499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 293.99,
+        "carHeardDirection": 113.99000000000001,
+        "time": "2024-08-19 17:37:52.623"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608166666667,
+            "lng": 109.84259811166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 288.54,
+        "carHeardDirection": 108.54000000000002,
+        "time": "2024-08-19 17:37:52.834"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608204833333,
+            "lng": 109.84259674166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 292.26,
+        "carHeardDirection": 112.25999999999999,
+        "time": "2024-08-19 17:37:53.049"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608204833333,
+            "lng": 109.84259674166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 286.76,
+        "carHeardDirection": 106.75999999999999,
+        "time": "2024-08-19 17:37:53.252"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082215,
+            "lng": 109.84259607666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 282.66,
+        "carHeardDirection": 102.66000000000003,
+        "time": "2024-08-19 17:37:53.455"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608235666667,
+            "lng": 109.84259545333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 285.8,
+        "carHeardDirection": 105.80000000000001,
+        "time": "2024-08-19 17:37:53.662"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082505,
+            "lng": 109.84259482,
+            "pointBh": 0
+        },
+        "basePointAngle": 284.96,
+        "carHeardDirection": 104.95999999999998,
+        "time": "2024-08-19 17:37:53.870"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608277833333,
+            "lng": 109.84259341666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 287.07,
+        "carHeardDirection": 107.07,
+        "time": "2024-08-19 17:37:54.076"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608277833333,
+            "lng": 109.84259341666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 287.07,
+        "carHeardDirection": 107.07,
+        "time": "2024-08-19 17:37:54.282"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608305833333,
+            "lng": 109.84259196500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 285.84,
+        "carHeardDirection": 105.83999999999997,
+        "time": "2024-08-19 17:37:54.487"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083180000006,
+            "lng": 109.842591225,
+            "pointBh": 0
+        },
+        "basePointAngle": 286.09,
+        "carHeardDirection": 106.08999999999997,
+        "time": "2024-08-19 17:37:54.691"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083180000006,
+            "lng": 109.842591225,
+            "pointBh": 0
+        },
+        "basePointAngle": 286.09,
+        "carHeardDirection": 106.08999999999997,
+        "time": "2024-08-19 17:37:54.895"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608337666667,
+            "lng": 109.84258986166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 284.19,
+        "carHeardDirection": 104.19,
+        "time": "2024-08-19 17:37:55.099"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608337666667,
+            "lng": 109.84258986166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 284.19,
+        "carHeardDirection": 104.19,
+        "time": "2024-08-19 17:37:55.303"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608352333334,
+            "lng": 109.8425886,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.92,
+        "carHeardDirection": 97.92000000000002,
+        "time": "2024-08-19 17:37:55.507"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608356666667,
+            "lng": 109.84258796500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.16,
+        "carHeardDirection": 95.16000000000003,
+        "time": "2024-08-19 17:37:55.714"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083616666666,
+            "lng": 109.84258735,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.38,
+        "carHeardDirection": 94.38,
+        "time": "2024-08-19 17:37:55.922"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083678333334,
+            "lng": 109.84258673833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.85,
+        "carHeardDirection": 95.85000000000002,
+        "time": "2024-08-19 17:37:56.132"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083678333334,
+            "lng": 109.84258673833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.85,
+        "carHeardDirection": 95.85000000000002,
+        "time": "2024-08-19 17:37:56.336"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608373833334,
+            "lng": 109.84258539833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 270.91,
+        "carHeardDirection": 90.91000000000003,
+        "time": "2024-08-19 17:37:56.539"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083765,
+            "lng": 109.84258466166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 267.81,
+        "carHeardDirection": 87.81,
+        "time": "2024-08-19 17:37:56.743"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608379333333,
+            "lng": 109.84258387,
+            "pointBh": 0
+        },
+        "basePointAngle": 273.56,
+        "carHeardDirection": 93.56,
+        "time": "2024-08-19 17:37:56.946"
+    },
+    {
+        "basePoint": {
+            "lat": 40.6060838,
+            "lng": 109.84258302833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 271.77,
+        "carHeardDirection": 91.76999999999998,
+        "time": "2024-08-19 17:37:57.150"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608381,
+            "lng": 109.84258213166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 271.77,
+        "carHeardDirection": 91.76999999999998,
+        "time": "2024-08-19 17:37:57.354"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083815000005,
+            "lng": 109.84258118999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 269.03,
+        "carHeardDirection": 89.02999999999997,
+        "time": "2024-08-19 17:37:57.562"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608381833333,
+            "lng": 109.84258018166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 270.29,
+        "carHeardDirection": 90.29000000000002,
+        "time": "2024-08-19 17:37:57.764"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608385,
+            "lng": 109.842579185,
+            "pointBh": 0
+        },
+        "basePointAngle": 271.63,
+        "carHeardDirection": 91.63,
+        "time": "2024-08-19 17:37:57.971"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083901666665,
+            "lng": 109.84257819999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 271.56,
+        "carHeardDirection": 91.56,
+        "time": "2024-08-19 17:37:58.177"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608395333334,
+            "lng": 109.84257728166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 271.56,
+        "carHeardDirection": 91.56,
+        "time": "2024-08-19 17:37:58.380"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606084015,
+            "lng": 109.84257641,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.18,
+        "carHeardDirection": 99.18,
+        "time": "2024-08-19 17:37:58.584"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606084085,
+            "lng": 109.84257556833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.65,
+        "carHeardDirection": 97.64999999999998,
+        "time": "2024-08-19 17:37:58.788"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608416666666,
+            "lng": 109.84257473833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 278.38,
+        "carHeardDirection": 98.38,
+        "time": "2024-08-19 17:37:58.996"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608427166667,
+            "lng": 109.84257387333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.72,
+        "carHeardDirection": 97.72000000000003,
+        "time": "2024-08-19 17:37:59.204"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608427166667,
+            "lng": 109.84257387333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.72,
+        "carHeardDirection": 97.72000000000003,
+        "time": "2024-08-19 17:37:59.410"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608448999999,
+            "lng": 109.84257191166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 281.53,
+        "carHeardDirection": 101.52999999999997,
+        "time": "2024-08-19 17:37:59.617"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608459833334,
+            "lng": 109.84257084166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.94,
+        "carHeardDirection": 97.94,
+        "time": "2024-08-19 17:37:59.825"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608472166667,
+            "lng": 109.84256979833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.4,
+        "carHeardDirection": 99.39999999999998,
+        "time": "2024-08-19 17:38:00.034"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608482833334,
+            "lng": 109.84256875666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.07,
+        "carHeardDirection": 97.07,
+        "time": "2024-08-19 17:38:00.238"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606084923333334,
+            "lng": 109.84256781833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.07,
+        "carHeardDirection": 97.07,
+        "time": "2024-08-19 17:38:00.447"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085013333335,
+            "lng": 109.84256692666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.81,
+        "carHeardDirection": 97.81,
+        "time": "2024-08-19 17:38:00.657"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085091666664,
+            "lng": 109.84256622166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.9,
+        "carHeardDirection": 95.89999999999998,
+        "time": "2024-08-19 17:38:00.861"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608516333333,
+            "lng": 109.84256507333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.02,
+        "carHeardDirection": 95.01999999999998,
+        "time": "2024-08-19 17:38:01.066"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608516333333,
+            "lng": 109.84256507333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.02,
+        "carHeardDirection": 95.01999999999998,
+        "time": "2024-08-19 17:38:01.270"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608521666666,
+            "lng": 109.842564535,
+            "pointBh": 0
+        },
+        "basePointAngle": 278.29,
+        "carHeardDirection": 98.29000000000002,
+        "time": "2024-08-19 17:38:01.473"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085295,
+            "lng": 109.84256357833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 265.16,
+        "carHeardDirection": 85.16000000000003,
+        "time": "2024-08-19 17:38:01.678"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085295,
+            "lng": 109.84256357833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 265.16,
+        "carHeardDirection": 85.16000000000003,
+        "time": "2024-08-19 17:38:01.882"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085379999996,
+            "lng": 109.84256297666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 285.35,
+        "carHeardDirection": 105.35000000000002,
+        "time": "2024-08-19 17:38:02.091"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085379999996,
+            "lng": 109.84256297666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 285.35,
+        "carHeardDirection": 105.35000000000002,
+        "time": "2024-08-19 17:38:02.296"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608540166666,
+            "lng": 109.84256254833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 285.35,
+        "carHeardDirection": 105.35000000000002,
+        "time": "2024-08-19 17:38:02.500"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608541,
+            "lng": 109.84256233666669,
+            "pointBh": 0
+        },
+        "basePointAngle": 285.35,
+        "carHeardDirection": 105.35000000000002,
+        "time": "2024-08-19 17:38:02.709"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608546,
+            "lng": 109.84256205000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 283.79,
+        "carHeardDirection": 103.79000000000002,
+        "time": "2024-08-19 17:38:02.918"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085470000004,
+            "lng": 109.84256166499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.24,
+        "carHeardDirection": 99.24000000000001,
+        "time": "2024-08-19 17:38:03.117"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085470000004,
+            "lng": 109.84256166499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.24,
+        "carHeardDirection": 99.24000000000001,
+        "time": "2024-08-19 17:38:03.319"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608555333333,
+            "lng": 109.84256080333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.76,
+        "carHeardDirection": 94.75999999999999,
+        "time": "2024-08-19 17:38:03.523"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085578333335,
+            "lng": 109.84256038333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.87,
+        "carHeardDirection": 99.87,
+        "time": "2024-08-19 17:38:03.727"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085613333335,
+            "lng": 109.84256001500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.87,
+        "carHeardDirection": 99.87,
+        "time": "2024-08-19 17:38:03.933"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085648333334,
+            "lng": 109.84255969833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.87,
+        "carHeardDirection": 99.87,
+        "time": "2024-08-19 17:38:04.140"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085648333334,
+            "lng": 109.84255969833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.87,
+        "carHeardDirection": 99.87,
+        "time": "2024-08-19 17:38:04.345"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608572,
+            "lng": 109.84255906333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.87,
+        "carHeardDirection": 99.87,
+        "time": "2024-08-19 17:38:04.549"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608574333333,
+            "lng": 109.84255865499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.0,
+        "carHeardDirection": 97.0,
+        "time": "2024-08-19 17:38:04.753"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608578833333,
+            "lng": 109.84255822333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.3,
+        "carHeardDirection": 99.30000000000001,
+        "time": "2024-08-19 17:38:04.957"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608582166667,
+            "lng": 109.84255773166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.79,
+        "carHeardDirection": 95.79000000000002,
+        "time": "2024-08-19 17:38:05.161"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608585333333,
+            "lng": 109.84255728000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.79,
+        "carHeardDirection": 95.79000000000002,
+        "time": "2024-08-19 17:38:05.365"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085865,
+            "lng": 109.84255680333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.18,
+        "carHeardDirection": 94.18,
+        "time": "2024-08-19 17:38:05.571"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608588666666,
+            "lng": 109.84255632333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 266.13,
+        "carHeardDirection": 86.13,
+        "time": "2024-08-19 17:38:05.784"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085895,
+            "lng": 109.84255581333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.18,
+        "carHeardDirection": 97.18,
+        "time": "2024-08-19 17:38:05.985"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085925,
+            "lng": 109.84255528666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.06,
+        "carHeardDirection": 97.06,
+        "time": "2024-08-19 17:38:06.191"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608596833333,
+            "lng": 109.84255474333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.06,
+        "carHeardDirection": 97.06,
+        "time": "2024-08-19 17:38:06.397"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085985,
+            "lng": 109.84255432833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:06.600"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608598666667,
+            "lng": 109.842554085,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:06.813"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608598666667,
+            "lng": 109.84255406166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:07.012"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608597,
+            "lng": 109.84255409833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:07.214"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608597,
+            "lng": 109.84255409833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:07.419"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608598333333,
+            "lng": 109.84255406333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:07.623"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608598666667,
+            "lng": 109.84255407833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:07.827"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608597333333,
+            "lng": 109.84255374333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:08.031"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085971666666,
+            "lng": 109.84255374499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:08.235"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608598333333,
+            "lng": 109.84255378333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:08.439"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608597833333,
+            "lng": 109.84255383333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:08.643"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608597833333,
+            "lng": 109.84255390166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:08.848"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608596833333,
+            "lng": 109.84255438833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.19,
+        "carHeardDirection": 95.19,
+        "time": "2024-08-19 17:38:09.053"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608596833333,
+            "lng": 109.84255438833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 97.71,
+        "carHeardDirection": 97.71,
+        "time": "2024-08-19 17:38:09.261"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608594666667,
+            "lng": 109.84255518833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 97.71,
+        "carHeardDirection": 97.71,
+        "time": "2024-08-19 17:38:09.465"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085838333335,
+            "lng": 109.84255787166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 93.03,
+        "carHeardDirection": 93.03,
+        "time": "2024-08-19 17:38:09.670"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085838333335,
+            "lng": 109.84255787166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 93.03,
+        "carHeardDirection": 93.03,
+        "time": "2024-08-19 17:38:09.873"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608568,
+            "lng": 109.84256235166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 92.29,
+        "carHeardDirection": 92.29,
+        "time": "2024-08-19 17:38:10.077"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608568,
+            "lng": 109.84256235166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 92.29,
+        "carHeardDirection": 92.29,
+        "time": "2024-08-19 17:38:10.281"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085541666666,
+            "lng": 109.84256721666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 91.62,
+        "carHeardDirection": 91.62,
+        "time": "2024-08-19 17:38:10.484"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608547333333,
+            "lng": 109.84257000166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 91.4,
+        "carHeardDirection": 91.4,
+        "time": "2024-08-19 17:38:10.692"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608547333333,
+            "lng": 109.84257000166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 91.4,
+        "carHeardDirection": 91.4,
+        "time": "2024-08-19 17:38:10.901"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608531166667,
+            "lng": 109.84257606666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 91.61,
+        "carHeardDirection": 91.61,
+        "time": "2024-08-19 17:38:11.102"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608531166667,
+            "lng": 109.84257606666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 91.61,
+        "carHeardDirection": 91.61,
+        "time": "2024-08-19 17:38:11.305"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608523333334,
+            "lng": 109.84258266333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 89.25,
+        "carHeardDirection": 89.25,
+        "time": "2024-08-19 17:38:11.509"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608521333334,
+            "lng": 109.84258608666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 90.11,
+        "carHeardDirection": 90.11,
+        "time": "2024-08-19 17:38:11.713"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608522333334,
+            "lng": 109.84258951833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 89.88,
+        "carHeardDirection": 89.88,
+        "time": "2024-08-19 17:38:11.917"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085408333335,
+            "lng": 109.84259298,
+            "pointBh": 0
+        },
+        "basePointAngle": 83.06,
+        "carHeardDirection": 83.06,
+        "time": "2024-08-19 17:38:12.122"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085408333335,
+            "lng": 109.84259298,
+            "pointBh": 0
+        },
+        "basePointAngle": 83.06,
+        "carHeardDirection": 83.06,
+        "time": "2024-08-19 17:38:12.328"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608624166667,
+            "lng": 109.84259974,
+            "pointBh": 0
+        },
+        "basePointAngle": 78.94,
+        "carHeardDirection": 78.94,
+        "time": "2024-08-19 17:38:12.533"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086925,
+            "lng": 109.84260300166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 72.87,
+        "carHeardDirection": 72.87,
+        "time": "2024-08-19 17:38:12.737"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606087728333335,
+            "lng": 109.84260611500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 70.19,
+        "carHeardDirection": 70.19,
+        "time": "2024-08-19 17:38:12.944"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608869166666,
+            "lng": 109.84260912666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 66.58,
+        "carHeardDirection": 66.58,
+        "time": "2024-08-19 17:38:13.147"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608869166666,
+            "lng": 109.84260912666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 66.58,
+        "carHeardDirection": 66.58,
+        "time": "2024-08-19 17:38:13.352"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609113833333,
+            "lng": 109.84261484333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 57.18,
+        "carHeardDirection": 57.18,
+        "time": "2024-08-19 17:38:13.556"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609249,
+            "lng": 109.84261755833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 53.45,
+        "carHeardDirection": 53.45,
+        "time": "2024-08-19 17:38:13.762"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609398333334,
+            "lng": 109.84262011500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 51.38,
+        "carHeardDirection": 51.38,
+        "time": "2024-08-19 17:38:13.970"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609556166666,
+            "lng": 109.84262249833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 47.22,
+        "carHeardDirection": 47.22,
+        "time": "2024-08-19 17:38:14.176"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609556166666,
+            "lng": 109.84262249833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 47.22,
+        "carHeardDirection": 47.22,
+        "time": "2024-08-19 17:38:14.381"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609903,
+            "lng": 109.84262687500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 41.26,
+        "carHeardDirection": 41.26,
+        "time": "2024-08-19 17:38:14.585"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610093333333,
+            "lng": 109.8426288,
+            "pointBh": 0
+        },
+        "basePointAngle": 36.93,
+        "carHeardDirection": 36.93,
+        "time": "2024-08-19 17:38:14.791"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606102979999996,
+            "lng": 109.84263059833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 33.17,
+        "carHeardDirection": 33.17,
+        "time": "2024-08-19 17:38:14.993"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606105084999996,
+            "lng": 109.84263230166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 31.25,
+        "carHeardDirection": 31.25,
+        "time": "2024-08-19 17:38:15.199"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610725833333,
+            "lng": 109.84263396,
+            "pointBh": 0
+        },
+        "basePointAngle": 31.25,
+        "carHeardDirection": 31.25,
+        "time": "2024-08-19 17:38:15.403"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610949333333,
+            "lng": 109.84263565166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 30.92,
+        "carHeardDirection": 30.92,
+        "time": "2024-08-19 17:38:15.609"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611176166666,
+            "lng": 109.84263705500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 25.53,
+        "carHeardDirection": 25.53,
+        "time": "2024-08-19 17:38:15.814"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611412833334,
+            "lng": 109.84263829333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 21.32,
+        "carHeardDirection": 21.32,
+        "time": "2024-08-19 17:38:16.022"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611652,
+            "lng": 109.84263945833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 21.66,
+        "carHeardDirection": 21.66,
+        "time": "2024-08-19 17:38:16.228"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611891333333,
+            "lng": 109.84264047166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 21.66,
+        "carHeardDirection": 21.66,
+        "time": "2024-08-19 17:38:16.437"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606121375,
+            "lng": 109.84264125833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 11.49,
+        "carHeardDirection": 11.49,
+        "time": "2024-08-19 17:38:16.641"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612382833333,
+            "lng": 109.84264197166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 11.32,
+        "carHeardDirection": 11.32,
+        "time": "2024-08-19 17:38:16.850"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606128639999994,
+            "lng": 109.84264290166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 6.13,
+        "carHeardDirection": 6.13,
+        "time": "2024-08-19 17:38:17.060"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606128639999994,
+            "lng": 109.84264290166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 6.13,
+        "carHeardDirection": 6.13,
+        "time": "2024-08-19 17:38:17.264"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606133193333335,
+            "lng": 109.84264325666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 2.38,
+        "carHeardDirection": 2.38,
+        "time": "2024-08-19 17:38:17.472"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606135341666665,
+            "lng": 109.84264348999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 5.3,
+        "carHeardDirection": 5.3,
+        "time": "2024-08-19 17:38:17.679"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606135341666665,
+            "lng": 109.84264348999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 5.3,
+        "carHeardDirection": 5.3,
+        "time": "2024-08-19 17:38:17.888"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60613875833334,
+            "lng": 109.8426438,
+            "pointBh": 0
+        },
+        "basePointAngle": 4.48,
+        "carHeardDirection": 4.48,
+        "time": "2024-08-19 17:38:18.090"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60613875833334,
+            "lng": 109.8426438,
+            "pointBh": 0
+        },
+        "basePointAngle": 4.48,
+        "carHeardDirection": 4.48,
+        "time": "2024-08-19 17:38:18.293"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614107666667,
+            "lng": 109.84264397999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 6.52,
+        "carHeardDirection": 6.52,
+        "time": "2024-08-19 17:38:18.497"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606141895,
+            "lng": 109.84264406333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 6.26,
+        "carHeardDirection": 6.26,
+        "time": "2024-08-19 17:38:18.701"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614249666666,
+            "lng": 109.84264412833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:18.910"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606142803333334,
+            "lng": 109.84264414666669,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:19.111"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606142855,
+            "lng": 109.842644165,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:19.321"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614283666666,
+            "lng": 109.84264415999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:19.523"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614283333334,
+            "lng": 109.84264416666669,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:19.729"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614282833333,
+            "lng": 109.84264413999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:19.931"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614280166667,
+            "lng": 109.84264415166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:20.135"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606142778333336,
+            "lng": 109.84264416166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:20.343"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614275499999,
+            "lng": 109.84264413000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:20.543"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606142676666664,
+            "lng": 109.84264413499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:20.747"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614284,
+            "lng": 109.84264421499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 3.74,
+        "carHeardDirection": 3.74,
+        "time": "2024-08-19 17:38:20.952"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614246,
+            "lng": 109.84264420166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 177.6,
+        "carHeardDirection": 357.6,
+        "time": "2024-08-19 17:38:21.156"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614185666667,
+            "lng": 109.84264411500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 177.6,
+        "carHeardDirection": 357.6,
+        "time": "2024-08-19 17:38:21.361"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606141075,
+            "lng": 109.842644035,
+            "pointBh": 0
+        },
+        "basePointAngle": 186.3,
+        "carHeardDirection": 6.300000000000011,
+        "time": "2024-08-19 17:38:21.565"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60614013166666,
+            "lng": 109.84264393,
+            "pointBh": 0
+        },
+        "basePointAngle": 185.15,
+        "carHeardDirection": 5.150000000000006,
+        "time": "2024-08-19 17:38:21.775"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606139119999995,
+            "lng": 109.842643815,
+            "pointBh": 0
+        },
+        "basePointAngle": 184.82,
+        "carHeardDirection": 4.819999999999993,
+        "time": "2024-08-19 17:38:21.978"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60613771166666,
+            "lng": 109.84264362666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 183.44,
+        "carHeardDirection": 3.4399999999999977,
+        "time": "2024-08-19 17:38:22.182"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60613771166666,
+            "lng": 109.84264362666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 183.44,
+        "carHeardDirection": 3.4399999999999977,
+        "time": "2024-08-19 17:38:22.387"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60613542666667,
+            "lng": 109.84264338666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.89,
+        "carHeardDirection": 2.8899999999999864,
+        "time": "2024-08-19 17:38:22.591"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606134170000004,
+            "lng": 109.842643245,
+            "pointBh": 0
+        },
+        "basePointAngle": 186.34,
+        "carHeardDirection": 6.340000000000003,
+        "time": "2024-08-19 17:38:22.796"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606132896666665,
+            "lng": 109.842643105,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.67,
+        "carHeardDirection": 2.6699999999999875,
+        "time": "2024-08-19 17:38:23.000"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606131639999994,
+            "lng": 109.84264295833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 185.84,
+        "carHeardDirection": 5.840000000000003,
+        "time": "2024-08-19 17:38:23.204"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606131639999994,
+            "lng": 109.84264295833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 185.84,
+        "carHeardDirection": 5.840000000000003,
+        "time": "2024-08-19 17:38:23.412"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612932166667,
+            "lng": 109.84264273666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 184.31,
+        "carHeardDirection": 4.310000000000002,
+        "time": "2024-08-19 17:38:23.613"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612843333333,
+            "lng": 109.84264266666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 182.77,
+        "carHeardDirection": 2.7700000000000102,
+        "time": "2024-08-19 17:38:23.821"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612766,
+            "lng": 109.84264256333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 185.82,
+        "carHeardDirection": 5.819999999999993,
+        "time": "2024-08-19 17:38:24.026"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612685,
+            "lng": 109.842642515,
+            "pointBh": 0
+        },
+        "basePointAngle": 186.33,
+        "carHeardDirection": 6.3300000000000125,
+        "time": "2024-08-19 17:38:24.234"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606126008333334,
+            "lng": 109.84264243333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 184.18,
+        "carHeardDirection": 4.180000000000007,
+        "time": "2024-08-19 17:38:24.443"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606125205,
+            "lng": 109.842642345,
+            "pointBh": 0
+        },
+        "basePointAngle": 185.24,
+        "carHeardDirection": 5.240000000000009,
+        "time": "2024-08-19 17:38:24.652"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606124361666666,
+            "lng": 109.84264227500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 181.07,
+        "carHeardDirection": 1.0699999999999932,
+        "time": "2024-08-19 17:38:24.859"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612257166667,
+            "lng": 109.84264216166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 183.03,
+        "carHeardDirection": 3.030000000000001,
+        "time": "2024-08-19 17:38:25.064"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612257166667,
+            "lng": 109.84264216166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 183.03,
+        "carHeardDirection": 3.030000000000001,
+        "time": "2024-08-19 17:38:25.270"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60612067,
+            "lng": 109.84264215500001,
+            "pointBh": 0
+        },
+        "basePointAngle": 178.9,
+        "carHeardDirection": 358.9,
+        "time": "2024-08-19 17:38:25.474"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606119678333336,
+            "lng": 109.84264221,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.01,
+        "carHeardDirection": 356.01,
+        "time": "2024-08-19 17:38:25.679"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606119678333336,
+            "lng": 109.84264221,
+            "pointBh": 0
+        },
+        "basePointAngle": 176.01,
+        "carHeardDirection": 356.01,
+        "time": "2024-08-19 17:38:25.883"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606117446666666,
+            "lng": 109.84264229833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 177.86,
+        "carHeardDirection": 357.86,
+        "time": "2024-08-19 17:38:26.087"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606117446666666,
+            "lng": 109.84264229833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 177.86,
+        "carHeardDirection": 357.86,
+        "time": "2024-08-19 17:38:26.292"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606114825,
+            "lng": 109.84264220499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 183.62,
+        "carHeardDirection": 3.6200000000000045,
+        "time": "2024-08-19 17:38:26.496"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606113404999995,
+            "lng": 109.842642055,
+            "pointBh": 0
+        },
+        "basePointAngle": 185.91,
+        "carHeardDirection": 5.909999999999997,
+        "time": "2024-08-19 17:38:26.703"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60611197,
+            "lng": 109.84264188333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 185.72,
+        "carHeardDirection": 5.719999999999999,
+        "time": "2024-08-19 17:38:26.922"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606110533333336,
+            "lng": 109.84264157166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 189.89,
+        "carHeardDirection": 9.889999999999986,
+        "time": "2024-08-19 17:38:27.124"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610908,
+            "lng": 109.84264114999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 189.89,
+        "carHeardDirection": 9.889999999999986,
+        "time": "2024-08-19 17:38:27.331"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610765333333,
+            "lng": 109.84264069333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 192.92,
+        "carHeardDirection": 12.919999999999987,
+        "time": "2024-08-19 17:38:27.537"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610620333333,
+            "lng": 109.84264019166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 197.49,
+        "carHeardDirection": 17.49000000000001,
+        "time": "2024-08-19 17:38:27.747"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610483,
+            "lng": 109.842639495,
+            "pointBh": 0
+        },
+        "basePointAngle": 201.03,
+        "carHeardDirection": 21.03,
+        "time": "2024-08-19 17:38:27.955"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606103485,
+            "lng": 109.84263883333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 200.79,
+        "carHeardDirection": 20.789999999999992,
+        "time": "2024-08-19 17:38:28.162"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610215166666,
+            "lng": 109.84263805999998,
+            "pointBh": 0
+        },
+        "basePointAngle": 200.79,
+        "carHeardDirection": 20.789999999999992,
+        "time": "2024-08-19 17:38:28.378"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60610088166666,
+            "lng": 109.84263727166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 205.63,
+        "carHeardDirection": 25.629999999999995,
+        "time": "2024-08-19 17:38:28.579"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609968000001,
+            "lng": 109.84263648166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 206.99,
+        "carHeardDirection": 26.99000000000001,
+        "time": "2024-08-19 17:38:28.783"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606098493333334,
+            "lng": 109.84263559499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 211.42,
+        "carHeardDirection": 31.419999999999987,
+        "time": "2024-08-19 17:38:28.989"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609736833333,
+            "lng": 109.84263465666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 214.87,
+        "carHeardDirection": 34.870000000000005,
+        "time": "2024-08-19 17:38:29.194"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606096271666665,
+            "lng": 109.84263367166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 214.87,
+        "carHeardDirection": 34.870000000000005,
+        "time": "2024-08-19 17:38:29.400"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609523166667,
+            "lng": 109.84263267333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 216.86,
+        "carHeardDirection": 36.860000000000014,
+        "time": "2024-08-19 17:38:29.609"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609424333334,
+            "lng": 109.8426316,
+            "pointBh": 0
+        },
+        "basePointAngle": 219.89,
+        "carHeardDirection": 39.889999999999986,
+        "time": "2024-08-19 17:38:29.808"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606093318333336,
+            "lng": 109.84263050166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 222.45,
+        "carHeardDirection": 42.44999999999999,
+        "time": "2024-08-19 17:38:30.013"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609243333333,
+            "lng": 109.84262945833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 221.27,
+        "carHeardDirection": 41.27000000000001,
+        "time": "2024-08-19 17:38:30.219"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606091565,
+            "lng": 109.84262839833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 223.96,
+        "carHeardDirection": 43.96000000000001,
+        "time": "2024-08-19 17:38:30.424"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60609074,
+            "lng": 109.84262727,
+            "pointBh": 0
+        },
+        "basePointAngle": 226.27,
+        "carHeardDirection": 46.27000000000001,
+        "time": "2024-08-19 17:38:30.631"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608994,
+            "lng": 109.84262610666669,
+            "pointBh": 0
+        },
+        "basePointAngle": 228.94,
+        "carHeardDirection": 48.94,
+        "time": "2024-08-19 17:38:30.835"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606089168333334,
+            "lng": 109.84262487833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 230.4,
+        "carHeardDirection": 50.400000000000006,
+        "time": "2024-08-19 17:38:31.042"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606088408333335,
+            "lng": 109.84262365499998,
+            "pointBh": 0
+        },
+        "basePointAngle": 231.44,
+        "carHeardDirection": 51.44,
+        "time": "2024-08-19 17:38:31.249"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606087705,
+            "lng": 109.84262239833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 231.44,
+        "carHeardDirection": 51.44,
+        "time": "2024-08-19 17:38:31.462"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608640333333,
+            "lng": 109.84261980166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 238.61,
+        "carHeardDirection": 58.610000000000014,
+        "time": "2024-08-19 17:38:31.667"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608640333333,
+            "lng": 109.84261980166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 238.61,
+        "carHeardDirection": 58.610000000000014,
+        "time": "2024-08-19 17:38:31.873"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085285,
+            "lng": 109.84261720833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 242.77,
+        "carHeardDirection": 62.77000000000001,
+        "time": "2024-08-19 17:38:32.078"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085285,
+            "lng": 109.84261720833335,
+            "pointBh": 0
+        },
+        "basePointAngle": 242.77,
+        "carHeardDirection": 62.77000000000001,
+        "time": "2024-08-19 17:38:32.283"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608437333334,
+            "lng": 109.84261464666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 245.57,
+        "carHeardDirection": 65.57,
+        "time": "2024-08-19 17:38:32.488"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608397166666,
+            "lng": 109.84261341499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 247.45,
+        "carHeardDirection": 67.44999999999999,
+        "time": "2024-08-19 17:38:32.693"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608397166666,
+            "lng": 109.84261341499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 247.45,
+        "carHeardDirection": 67.44999999999999,
+        "time": "2024-08-19 17:38:32.899"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083346666665,
+            "lng": 109.84261122000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 248.85,
+        "carHeardDirection": 68.85,
+        "time": "2024-08-19 17:38:33.102"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083346666665,
+            "lng": 109.84261122000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 248.85,
+        "carHeardDirection": 68.85,
+        "time": "2024-08-19 17:38:33.306"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608290833333,
+            "lng": 109.84260950499998,
+            "pointBh": 0
+        },
+        "basePointAngle": 255.35,
+        "carHeardDirection": 75.35,
+        "time": "2024-08-19 17:38:33.510"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608276166667,
+            "lng": 109.84260882666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 254.89,
+        "carHeardDirection": 74.88999999999999,
+        "time": "2024-08-19 17:38:33.717"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608260166667,
+            "lng": 109.84260826166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 249.39,
+        "carHeardDirection": 69.38999999999999,
+        "time": "2024-08-19 17:38:33.925"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082521666664,
+            "lng": 109.842607795,
+            "pointBh": 0
+        },
+        "basePointAngle": 261.43,
+        "carHeardDirection": 81.43,
+        "time": "2024-08-19 17:38:34.134"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082521666664,
+            "lng": 109.842607795,
+            "pointBh": 0
+        },
+        "basePointAngle": 261.43,
+        "carHeardDirection": 81.43,
+        "time": "2024-08-19 17:38:34.333"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082316666665,
+            "lng": 109.84260688166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 250.75,
+        "carHeardDirection": 70.75,
+        "time": "2024-08-19 17:38:34.537"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082215,
+            "lng": 109.84260631166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 254.8,
+        "carHeardDirection": 74.80000000000001,
+        "time": "2024-08-19 17:38:34.741"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082119999996,
+            "lng": 109.84260565666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 255.19,
+        "carHeardDirection": 75.19,
+        "time": "2024-08-19 17:38:34.944"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608199833334,
+            "lng": 109.84260491666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 259.76,
+        "carHeardDirection": 79.75999999999999,
+        "time": "2024-08-19 17:38:35.150"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608199833334,
+            "lng": 109.84260491666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 259.76,
+        "carHeardDirection": 79.75999999999999,
+        "time": "2024-08-19 17:38:35.356"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608173666667,
+            "lng": 109.84260325833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 259.41,
+        "carHeardDirection": 79.41000000000003,
+        "time": "2024-08-19 17:38:35.558"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608161833333,
+            "lng": 109.84260236833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 260.38,
+        "carHeardDirection": 80.38,
+        "time": "2024-08-19 17:38:35.764"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608147833333,
+            "lng": 109.84260144833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 258.06,
+        "carHeardDirection": 78.06,
+        "time": "2024-08-19 17:38:35.981"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608141,
+            "lng": 109.84260056833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 264.74,
+        "carHeardDirection": 84.74000000000001,
+        "time": "2024-08-19 17:38:36.187"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608134666666,
+            "lng": 109.84259971833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 264.74,
+        "carHeardDirection": 84.74000000000001,
+        "time": "2024-08-19 17:38:36.397"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608131,
+            "lng": 109.84259901666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 266.11,
+        "carHeardDirection": 86.11000000000001,
+        "time": "2024-08-19 17:38:36.606"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606081284999995,
+            "lng": 109.84259842166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 264.68,
+        "carHeardDirection": 84.68,
+        "time": "2024-08-19 17:38:36.816"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608125833333,
+            "lng": 109.84259791666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 266.38,
+        "carHeardDirection": 86.38,
+        "time": "2024-08-19 17:38:37.022"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608129166667,
+            "lng": 109.84259748666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 272.96,
+        "carHeardDirection": 92.95999999999998,
+        "time": "2024-08-19 17:38:37.230"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608130166667,
+            "lng": 109.84259694833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 272.96,
+        "carHeardDirection": 92.95999999999998,
+        "time": "2024-08-19 17:38:37.440"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606081365,
+            "lng": 109.84259626,
+            "pointBh": 0
+        },
+        "basePointAngle": 273.83,
+        "carHeardDirection": 93.82999999999998,
+        "time": "2024-08-19 17:38:37.645"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608142666667,
+            "lng": 109.84259539499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 276.08,
+        "carHeardDirection": 96.07999999999998,
+        "time": "2024-08-19 17:38:37.852"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606081513333336,
+            "lng": 109.84259438833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 276.6,
+        "carHeardDirection": 96.60000000000002,
+        "time": "2024-08-19 17:38:38.059"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606081635,
+            "lng": 109.84259314166665,
+            "pointBh": 0
+        },
+        "basePointAngle": 278.12,
+        "carHeardDirection": 98.12,
+        "time": "2024-08-19 17:38:38.271"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082015,
+            "lng": 109.84259030666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.93,
+        "carHeardDirection": 99.93,
+        "time": "2024-08-19 17:38:38.475"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082235,
+            "lng": 109.84258868333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 281.58,
+        "carHeardDirection": 101.57999999999998,
+        "time": "2024-08-19 17:38:38.681"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606082235,
+            "lng": 109.84258868333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 281.58,
+        "carHeardDirection": 101.57999999999998,
+        "time": "2024-08-19 17:38:38.883"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608281166667,
+            "lng": 109.84258534500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.92,
+        "carHeardDirection": 99.92000000000002,
+        "time": "2024-08-19 17:38:39.088"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608281166667,
+            "lng": 109.84258534500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 279.92,
+        "carHeardDirection": 99.92000000000002,
+        "time": "2024-08-19 17:38:39.293"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608335333333,
+            "lng": 109.84258195333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 281.84,
+        "carHeardDirection": 101.83999999999997,
+        "time": "2024-08-19 17:38:39.497"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606083605,
+            "lng": 109.84258041166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 281.89,
+        "carHeardDirection": 101.88999999999999,
+        "time": "2024-08-19 17:38:39.702"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608383666667,
+            "lng": 109.84257891666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 281.89,
+        "carHeardDirection": 101.88999999999999,
+        "time": "2024-08-19 17:38:39.912"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606084079999995,
+            "lng": 109.84257746666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 283.27,
+        "carHeardDirection": 103.26999999999998,
+        "time": "2024-08-19 17:38:40.116"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606084079999995,
+            "lng": 109.84257746666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 283.27,
+        "carHeardDirection": 103.26999999999998,
+        "time": "2024-08-19 17:38:40.325"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606084558333336,
+            "lng": 109.84257437666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 282.71,
+        "carHeardDirection": 102.70999999999998,
+        "time": "2024-08-19 17:38:40.531"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606084806666665,
+            "lng": 109.84257273333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 283.29,
+        "carHeardDirection": 103.29000000000002,
+        "time": "2024-08-19 17:38:40.743"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085015,
+            "lng": 109.84257106833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 280.02,
+        "carHeardDirection": 100.01999999999998,
+        "time": "2024-08-19 17:38:40.949"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085246666666,
+            "lng": 109.84256949666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.99,
+        "carHeardDirection": 97.99000000000001,
+        "time": "2024-08-19 17:38:41.156"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085246666666,
+            "lng": 109.84256949666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.99,
+        "carHeardDirection": 97.99000000000001,
+        "time": "2024-08-19 17:38:41.365"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608543833334,
+            "lng": 109.84256658999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.38,
+        "carHeardDirection": 94.38,
+        "time": "2024-08-19 17:38:41.570"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608553,
+            "lng": 109.84256534333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 273.99,
+        "carHeardDirection": 93.99000000000001,
+        "time": "2024-08-19 17:38:41.780"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608556666667,
+            "lng": 109.84256419,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.02,
+        "carHeardDirection": 95.01999999999998,
+        "time": "2024-08-19 17:38:41.987"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085603333334,
+            "lng": 109.84256315166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.28,
+        "carHeardDirection": 94.27999999999997,
+        "time": "2024-08-19 17:38:42.196"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608561833333,
+            "lng": 109.84256190666669,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.28,
+        "carHeardDirection": 94.27999999999997,
+        "time": "2024-08-19 17:38:42.405"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608569,
+            "lng": 109.84256053833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.23,
+        "carHeardDirection": 97.23000000000002,
+        "time": "2024-08-19 17:38:42.614"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608574333333,
+            "lng": 109.84255918,
+            "pointBh": 0
+        },
+        "basePointAngle": 272.15,
+        "carHeardDirection": 92.14999999999998,
+        "time": "2024-08-19 17:38:42.820"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085785,
+            "lng": 109.84255783833332,
+            "pointBh": 0
+        },
+        "basePointAngle": 270.59,
+        "carHeardDirection": 90.58999999999997,
+        "time": "2024-08-19 17:38:43.027"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608586,
+            "lng": 109.84255658666667,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.32,
+        "carHeardDirection": 94.32,
+        "time": "2024-08-19 17:38:43.233"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606085915,
+            "lng": 109.84255540666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 274.32,
+        "carHeardDirection": 94.32,
+        "time": "2024-08-19 17:38:43.435"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608599166667,
+            "lng": 109.84255434666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 276.74,
+        "carHeardDirection": 96.74000000000001,
+        "time": "2024-08-19 17:38:43.639"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608603,
+            "lng": 109.8425534,
+            "pointBh": 0
+        },
+        "basePointAngle": 272.1,
+        "carHeardDirection": 92.10000000000002,
+        "time": "2024-08-19 17:38:43.843"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608609166666,
+            "lng": 109.84255253166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.3,
+        "carHeardDirection": 95.30000000000001,
+        "time": "2024-08-19 17:38:44.046"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086145,
+            "lng": 109.84255176333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.12,
+        "carHeardDirection": 95.12,
+        "time": "2024-08-19 17:38:44.254"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086213333334,
+            "lng": 109.84255044000001,
+            "pointBh": 0
+        },
+        "basePointAngle": 275.6,
+        "carHeardDirection": 95.60000000000002,
+        "time": "2024-08-19 17:38:44.461"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608621833333,
+            "lng": 109.842549845,
+            "pointBh": 0
+        },
+        "basePointAngle": 265.79,
+        "carHeardDirection": 85.79000000000002,
+        "time": "2024-08-19 17:38:44.665"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608621833333,
+            "lng": 109.842549845,
+            "pointBh": 0
+        },
+        "basePointAngle": 265.79,
+        "carHeardDirection": 85.79000000000002,
+        "time": "2024-08-19 17:38:44.870"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608629,
+            "lng": 109.84254893,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:45.074"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608629,
+            "lng": 109.84254893,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:45.279"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608628333333,
+            "lng": 109.842548985,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:45.483"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086301666664,
+            "lng": 109.84254900333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:45.687"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086301666664,
+            "lng": 109.84254900333332,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:45.896"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608629,
+            "lng": 109.84254901499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:46.097"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608629,
+            "lng": 109.84254901499999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:46.302"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086275,
+            "lng": 109.84254900833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:46.506"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086278333336,
+            "lng": 109.84254901833334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:46.710"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086276666666,
+            "lng": 109.84254900666669,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:46.915"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608632,
+            "lng": 109.84254879333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:47.119"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608632,
+            "lng": 109.84254879333334,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:47.323"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608631,
+            "lng": 109.84254878166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:47.530"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608631666666,
+            "lng": 109.84254879666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:47.733"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608631,
+            "lng": 109.84254880166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:47.938"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608628166666,
+            "lng": 109.84254875,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:48.141"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608628166666,
+            "lng": 109.84254875,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:48.347"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086291666664,
+            "lng": 109.84254875166668,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:48.551"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086284999996,
+            "lng": 109.84254876166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:48.756"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086305,
+            "lng": 109.84254875666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:48.960"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608631833334,
+            "lng": 109.84254879666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:49.166"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608631833334,
+            "lng": 109.84254879666666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:49.371"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608631833334,
+            "lng": 109.84254877999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:49.575"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608631,
+            "lng": 109.84254878166666,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:49.779"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086303333335,
+            "lng": 109.84254881999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:49.983"
+    },
+    {
+        "basePoint": {
+            "lat": 40.6060863,
+            "lng": 109.84254883999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:50.188"
+    },
+    {
+        "basePoint": {
+            "lat": 40.6060863,
+            "lng": 109.84254883999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:50.394"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608632,
+            "lng": 109.84254883500002,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:50.596"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608630666666,
+            "lng": 109.84254885666665,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:50.800"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086291666664,
+            "lng": 109.84254890666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:51.009"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608629666667,
+            "lng": 109.84254890333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:51.216"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086311666665,
+            "lng": 109.84254890333335,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:51.420"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086295,
+            "lng": 109.84254888666668,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:51.624"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086303333335,
+            "lng": 109.84254890166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:51.828"
+    },
+    {
+        "basePoint": {
+            "lat": 40.6060863,
+            "lng": 109.84254889333333,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:52.033"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086291666664,
+            "lng": 109.84254894333331,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:52.237"
+    },
+    {
+        "basePoint": {
+            "lat": 40.60608629,
+            "lng": 109.84254894833333,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:52.441"
+    },
+    {
+        "basePoint": {
+            "lat": 40.6060863,
+            "lng": 109.84254894333331,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:52.651"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086305,
+            "lng": 109.84254895999999,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:52.855"
+    },
+    {
+        "basePoint": {
+            "lat": 40.606086303333335,
+            "lng": 109.84254898166667,
+            "pointBh": 0
+        },
+        "basePointAngle": 277.05,
+        "carHeardDirection": 97.05000000000001,
+        "time": "2024-08-19 17:38:53.065"
+    }
+]
