@@ -1,34 +1,22 @@
 using System;
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 
 public class DataSimulator : MonoBehaviour
 {
-    private DateTime startTime; // 以 points_info_mini.json 的第一条数据的时间作为基准
+    private DateTime startTime; //以points_info_mini.json的第一条数据的时间作为基准
 
-    private bool isPosTween = false;
-    private bool isBackCar;
-    private float posTimer;
-    private Vector3 tweenStartPos;
-    private Vector3 tweenEndPos;
-    private Vector3 tweenStartEulerAngle;
-    private Vector3 tweenEndEulerAngle;
-    private float tweenPosDuration;
-
-    public Transform[] WheelTrans;
-
-    private float wheelSpeed = 90f;
-
-    private bool isStatusTween = false;
-    private float statusTimer;
-    private float TweenWheelStartEulerAngle;
-    private float TweenWheelEndEulerAngle;
-    private float TweenWheelEndRotationAngle;
-    private float tweenStatusDuration;
-
-    public Transform FXP;
-
-    private float TweenFXPEndAngle;
+    public Transform Car; //汽车
+    public Transform[] FrontWheelTrans; //汽车前轮
+    public Transform[] BackWheelTrans; //汽车后轮
+    public Transform SteeringWheel; //方向盘
+    public Transform Speedometer; //仪表盘速度指针
+    public Transform Tachometer; //仪表盘转速指针
+    public GameObject OutsideCamera; //外部摄像头
+    public GameObject InsideCamera; //内部摄像头
+    
+    private bool isCarForward; //汽车是否向前
     // Start is called before the first frame update
     void Start()
     {
@@ -46,60 +34,22 @@ public class DataSimulator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPosTween)
-        {
-            posTimer += Time.deltaTime / tweenPosDuration;
-            if (posTimer <= tweenPosDuration)
-                PosLerp(tweenStartPos, tweenEndPos, tweenStartEulerAngle, tweenEndEulerAngle, posTimer);
-            else
-            {
-                isPosTween = false;
-                posTimer = 0;
-            }
-
-            if (isBackCar)
-            {
-                WheelBack();
-            }
-            else
-            {
-                WheelForward();
-            }
-        }
-
-        if (isStatusTween)
-        {
-            statusTimer+= Time.deltaTime / tweenStatusDuration;
-            if (statusTimer <= tweenStatusDuration)
-            {
-                //WheelDireLerp(TweenWheelStartEulerAngle, TweenWheelEndEulerAngle, statusTimer);
-            }
-            
-            else
-            {
-                isStatusTween = false;
-                statusTimer = 0;
-            }
-            
-            float anglePerSecond = TweenFXPEndAngle / tweenStatusDuration;
-            FXP.Rotate(new Vector3(0, anglePerSecond, 0));
-        }
     }
 
     private void FixedUpdate()
     {
     }
 
-    IEnumerator SendCarPosData()
+    private IEnumerator SendCarPosData()
     {
-        for (int i = 0; i < DataInputer.Instance.PointDatas.Count - 1; i++)
+        for (var i = 0; i < DataInputer.Instance.PointDatas.Count - 1; i++)
         {
             // 计算下一条数据的时间间隔
-            float delay =
+            var delay =
                 (float)(DateTime.Parse(DataInputer.Instance.PointDatas[i + 1].Time) -
                         DateTime.Parse(DataInputer.Instance.PointDatas[i].Time)).TotalMilliseconds / 1000;
             yield return new WaitForSeconds(delay);
-            
+
             CarPos(DataInputer.Instance.PointDatas[i], delay);
         }
     }
@@ -107,7 +57,7 @@ public class DataSimulator : MonoBehaviour
     IEnumerator SendCarStatusData()
     {
         // 找到 device_signal.json 中第一个时间大于等于 startTime 的条目
-        int startIndex = 0;
+        var startIndex = 0;
         while (startIndex < DataInputer.Instance.SignalDatas.Count &&
                DateTime.Parse(DataInputer.Instance.SignalDatas[startIndex].Time) < startTime)
         {
@@ -115,107 +65,74 @@ public class DataSimulator : MonoBehaviour
         }
 
         // 从找到的条目开始发送数据
-        for (int i = startIndex; i < DataInputer.Instance.SignalDatas.Count - 1; i++)
+        for (var i = startIndex; i < DataInputer.Instance.SignalDatas.Count - 1; i++)
         {
             // 计算下一条数据的时间间隔
-            float delay =
+            var delay =
                 (float)(DateTime.Parse(DataInputer.Instance.SignalDatas[i + 1].Time) -
                         DateTime.Parse(DataInputer.Instance.SignalDatas[i].Time)).TotalMilliseconds / 1000;
             yield return new WaitForSeconds(delay);
-            
-            CarStatus(DataInputer.Instance.SignalDatas[i],delay);
+
+            CarStatus(DataInputer.Instance.SignalDatas[i], delay);
         }
     }
 
-    void CarPos(PointsInfo data, float duration)
+    private void CarPos(PointsInfo data, float duration)
     {
-        // 在这里实现 carPos 的逻辑
-        //Debug.LogError($"car point{data.BasePoint.Lat},{data.BasePoint.Lng} at {data.Time}");
+        // Debug.LogError($"car point lat: {data.BasePoint.Lat}, lng: {data.BasePoint.Lng} at {data.Time}");
         var xyzPosition = GeoConverter.LatLonToLocal(data.BasePoint.Lat, data.BasePoint.Lng);
-        //Debug.LogError($"{xyzPosition.x} ,{xyzPosition.y},{xyzPosition.z}");
-        //Debug.LogError(data.CarHeardDirection);
-        isPosTween = true;
-        tweenStartPos = transform.localPosition;
-        tweenEndPos = xyzPosition;
-        tweenStartEulerAngle = transform.localEulerAngles;
-        tweenEndEulerAngle = new Vector3(0, (float)data.CarHeardDirection, 0);
-        tweenPosDuration = duration;
-        
-        float dot = Vector3.Dot(transform.forward, xyzPosition - transform.position); 
-        if (dot < 0)
+        // Debug.LogError($"local position: {xyzPosition}");
+        // Debug.LogError($"car eulerAngles.y: {data.CarHeardDirection}");
+        Car.DOKill();
+        Car.DOMove(xyzPosition, duration);
+        var carAngle = new Vector3(0, (float)data.CarHeardDirection, 0);
+        Car.DOLocalRotate(carAngle, duration);
+
+        var dot = Vector3.Dot(transform.forward, xyzPosition - transform.position);
+        isCarForward = dot >= 0;
+        foreach (var wheel in FrontWheelTrans)
         {
-            isBackCar = true;
+            wheel.GetChild(0).DOKill();
+            wheel.GetChild(0).DOLocalRotate(isCarForward ? new Vector3(360, 0, 0) : new Vector3(-360, 0, 0), duration,
+                RotateMode.LocalAxisAdd).SetEase(Ease.Linear).SetLoops(
+                -1, LoopType.Restart);
         }
-        else
+        foreach (var wheel in BackWheelTrans)
         {
-            isBackCar = false;
+            wheel.DOKill();
+            wheel.DOLocalRotate(isCarForward ? new Vector3(360, 0, 0) : new Vector3(-360, 0, 0), duration,
+                RotateMode.LocalAxisAdd).SetEase(Ease.Linear).SetLoops(
+                -1, LoopType.Restart);
         }
     }
 
-    void CarStatus(DeviceSignal data,float duration)
+    private void CarStatus(DeviceSignal data, float duration)
     {
-        // 在这里实现 carStatus 的逻辑
-        //Debug.LogError($"Car status: {data.Fxpzj} at {data.Time}");
-        isStatusTween = true;
-        TweenWheelStartEulerAngle = WheelTrans[0].localEulerAngles.y;
-        var angle = Math.Floor((double)data.Fxpzj / 5400 * 22);
-
-        TweenWheelEndEulerAngle = (float)angle; //(float)(angle * Math.PI / 180);
-        Debug.LogError($"度数：{angle}，弧度：{(float)(angle * Math.PI / 180)}");
-
-        foreach (var tran in WheelTrans)
+        //Debug.LogError($"car status: {data.Fxpzj} at {data.Time}");
+        var angle = (float)Math.Floor((double)data.Fxpzj / 5400 * 22);
+        // Debug.LogError($"前轮转向度数: {angle}，弧度: {(float)(angle * Math.PI / 180)}");
+        foreach (var tran in FrontWheelTrans)
         {
             tran.localEulerAngles =
-                new Vector3(tran.localEulerAngles.x, -TweenWheelEndEulerAngle, tran.localEulerAngles.z);
+                new Vector3(tran.localEulerAngles.x, -angle, 0);
         }
         
-        tweenStatusDuration = duration;
-        var fxpAngle = Math.Floor((double)-data.Fxpzj / 5400 * 700);
-        TweenFXPEndAngle = (float)(fxpAngle * Math.PI / 180);
+        var fxpAngle = (float)Math.Floor((double)-data.Fxpzj / 5400 * 700);
+        SteeringWheel.DOKill();
+        SteeringWheel.DOLocalRotate(new Vector3(0,fxpAngle,0), duration,RotateMode.LocalAxisAdd);
+        // Debug.LogError($"方向盘度数: {fxpAngle}，弧度: {(float)(fxpAngle * Math.PI / 180)}");
+        // Debug.LogError($"车速: {data.CarSpeed}");
+        Speedometer.DOKill();
+        Speedometer.DOLocalRotate(new Vector3(0, data.CarSpeed * 10, 0), duration);
+        // Debug.LogError($"转速: {data.EngineSpeed}");
+        Tachometer.DOKill();
+        var tachometerAngle = (float)data.EngineSpeed * 240 / 8000;
+        Tachometer.DOLocalRotate(new Vector3(0, tachometerAngle, 0), duration);
     }
 
-    private void PosLerp(Vector3 startPos, Vector3 endPos, Vector3 startAngle, Vector3 endAngle, float t)
+    public void OnChangeViewBtnClick()
     {
-        transform.localPosition = Vector3.Lerp(startPos, endPos, t);
-        transform.localEulerAngles = Vector3.Lerp(startAngle, endAngle, t);
-    }
-    
-    private void WheelForward()
-    {
-        foreach (var tran in WheelTrans)
-        {
-            tran.Rotate(new Vector3(Time.deltaTime * wheelSpeed, 0, 0));
-        }
-    }
-
-    private void WheelBack()
-    {
-        foreach (var tran in WheelTrans)
-        {
-            tran.Rotate(new Vector3(-Time.deltaTime * wheelSpeed, 0, 0));
-        }
-    }
-
-    private void WheelDireLerp(float start, float end, float t)
-    {
-        if (end >= 0)
-        {
-            if (WheelTrans[0].localEulerAngles.y >= end)
-            {
-                return;
-            }
-
-            WheelTrans[0].Rotate(0,20*Time.deltaTime,0);
-            WheelTrans[1].Rotate(0,20*Time.deltaTime,0);
-        }
-        else
-        {
-            if (WheelTrans[0].localEulerAngles.y <= end)
-            {
-                return;
-            }
-            WheelTrans[0].Rotate(0,-20*Time.deltaTime,0);
-            WheelTrans[1].Rotate(0,-20*Time.deltaTime,0);
-        }
+        OutsideCamera.SetActive(!OutsideCamera.activeInHierarchy);
+        InsideCamera.SetActive(!InsideCamera.activeInHierarchy);
     }
 }

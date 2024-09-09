@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DataInputer : MonoBehaviour
 {
@@ -10,31 +9,20 @@ public class DataInputer : MonoBehaviour
 
     public List<PointsInfo> PointDatas;
     public List<DeviceSignal> SignalDatas;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
         }
-        
-        //var pointStr = JsonLoader("points_info_mini.Json"); //定位数据
-        var pointStr = JsonLoader("points_info_mini");
-        //Debug.Log($"定位数据str:{pointStr}");
-       
-        PointDatas = JsonConvert.DeserializeObject<List<PointsInfo>>(pointStr);
-        //Debug.Log($"定位数据数量:{PointDatas.Count}");
-        
-        //var signStr = JsonLoader("device_signal.Json"); //信号数据
-        var signStr = JsonLoader("device_signal"); //信号数据
-        //Debug.Log($"信号数据str:{signStr}");
-        SignalDatas = JsonConvert.DeserializeObject<List<DeviceSignal>>(signStr);
-        //Debug.Log($"信号数据数量:{SignalDatas.Count}");
+
+        InitialData();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -42,22 +30,38 @@ public class DataInputer : MonoBehaviour
     {
     }
 
-    private string JsonLoader(string jsonName)
+    private string JsonLoaderExternal(string jsonName)
     {
 #if UNITY_EDITOR
-        //StreamReader reader = new StreamReader(Application.streamingAssetsPath + "/" + jsonName);
-        TextAsset jsonFile = Resources.Load<TextAsset>(jsonName);
-        string jsonString = jsonFile.text;
+        var reader = new StreamReader(Application.streamingAssetsPath + "/" + jsonName);
 #elif UNITY_ANDROID
-
-        TextAsset jsonFile = Resources.Load<TextAsset>(jsonName);
-        string jsonString = jsonFile.text;
-        //StreamReader reader = new StreamReader(Application.persistentDataPath + "/" + jsonName);
+        var reader = new StreamReader(Application.persistentDataPath + "/" + jsonName); //读取不到
 #endif
-        // string jsonData = reader.ReadToEnd();
-        // reader.Close();
-        // reader.Dispose();
-        // return jsonData;
+        var jsonData = reader.ReadToEnd();
+        reader.Close();
+        reader.Dispose();
+        return jsonData;
+    }
+
+    private string JsonLoaderInternal(string jsonName)
+    {
+        var jsonFile = Resources.Load<TextAsset>(jsonName);
+        var jsonString = jsonFile.text;
         return jsonString;
+    }
+
+    private void InitialData()
+    {
+        var pointStr = JsonLoaderInternal("points_info_mini"); //定位数据
+        var signStr = JsonLoaderInternal("device_signal"); //信号数据
+        // var pointStr = JsonLoaderExternal("points_info_mini.Json");
+        // var signStr = JsonLoaderExternal("device_signal.Json");
+        PointDatas = JsonConvert.DeserializeObject<List<PointsInfo>>(pointStr);
+        SignalDatas = JsonConvert.DeserializeObject<List<DeviceSignal>>(signStr);
+        
+        Debug.Log($"定位数据str:{pointStr}");
+        Debug.Log($"定位数据数量:{PointDatas.Count}");
+        Debug.Log($"信号数据str:{signStr}");
+        Debug.Log($"信号数据数量:{SignalDatas.Count}");
     }
 }
