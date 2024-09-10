@@ -59,9 +59,7 @@ public class DataInputer : MonoBehaviour
         PointDatas = JsonConvert.DeserializeObject<List<PointsInfo>>(pointStr);
         SignalDatas = JsonConvert.DeserializeObject<List<DeviceSignal>>(signStr);
         
-        Debug.Log($"定位数据str:{pointStr}");
         Debug.Log($"定位数据数量:{PointDatas.Count}");
-        Debug.Log($"信号数据str:{signStr}");
         Debug.Log($"信号数据数量:{SignalDatas.Count}");
     }
 }
