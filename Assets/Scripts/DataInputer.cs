@@ -23,6 +23,7 @@ public class DataInputer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Application.targetFrameRate = 30;
     }
 
     // Update is called once per frame
@@ -59,7 +60,7 @@ public class DataInputer : MonoBehaviour
         PointDatas = JsonConvert.DeserializeObject<List<PointsInfo>>(pointStr);
         SignalDatas = JsonConvert.DeserializeObject<List<DeviceSignal>>(signStr);
         
-        Debug.Log($"定位数据数量:{PointDatas.Count}");
-        Debug.Log($"信号数据数量:{SignalDatas.Count}");
+        // Debug.Log($"定位数据数量:{PointDatas.Count}");
+        // Debug.Log($"信号数据数量:{SignalDatas.Count}");
     }
 }
