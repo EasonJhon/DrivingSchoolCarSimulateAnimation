@@ -47,7 +47,7 @@ public class SignalDataSimulator : MonoBehaviour
         }
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         if (currentTweenIndex != -1)  
         {

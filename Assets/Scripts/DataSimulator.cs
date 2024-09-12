@@ -37,7 +37,7 @@ public class DataSimulator : MonoBehaviour
         }
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         if (currentTweenIndex != -1)  
         {
