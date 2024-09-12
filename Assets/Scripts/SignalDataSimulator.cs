@@ -8,6 +8,8 @@ public class SignalDataSimulator : MonoBehaviour
     public Transform SteeringWheel; //方向盘
     public Transform Speedometer; //仪表盘速度指针
     public Transform Tachometer; //仪表盘转速指针
+    public Transform LeftTurnIndicator; //左转向灯
+    public Transform RightTurnIndicator; //右转向灯
     
     private int currentTweenIndex = -1; //当前正在处理的动画索引，-1表示没有动画正在播放  
     private float currentTweenTime = 0f; //当前动画的已用时间
@@ -17,10 +19,15 @@ public class SignalDataSimulator : MonoBehaviour
 
     private class StatusTweenData
     {
-        public Quaternion SteeringWheelRot;
+        public float SteerLastAngle;
+        public float SteerNextAngle;
         public Quaternion FrontWheelRot;
         public Quaternion SpeedometerRot;
         public Quaternion TachometerRot;
+        public int LeftTurnLastSign;
+        public int LeftTurnNextSign;
+        public int RightTurnLastSign;
+        public int RightTurnNextSign;
         public float TweenTime;
     }
     
@@ -56,8 +63,10 @@ public class SignalDataSimulator : MonoBehaviour
                 {
                     tran.localRotation = Quaternion.Lerp(tran.localRotation,targetData.FrontWheelRot, t);
                 }
-                
-                SteeringWheel.localRotation = Quaternion.Lerp(SteeringWheel.localRotation,targetData.SteeringWheelRot, t);
+
+                var t2 = currentTweenTime / tweenTime; 
+                float newAngle = Mathf.LerpAngle(targetData.SteerLastAngle, targetData.SteerNextAngle, t2);
+                SteeringWheel.localRotation = Quaternion.Euler(0,newAngle, 0);
                 Speedometer.localRotation = Quaternion.Lerp(Speedometer.localRotation,targetData.SpeedometerRot, t);
                 Tachometer.localRotation = Quaternion.Lerp(Tachometer.localRotation,targetData.TachometerRot, t);
                 
@@ -77,6 +86,30 @@ public class SignalDataSimulator : MonoBehaviour
         tweenTime = newData.TweenTime;
         currentTweenTime = 0f; //重置时间
         onTweenComplete = onComplete;
+        var lGlint = LeftTurnIndicator.GetComponent<Glinting>();
+        var rGlint = RightTurnIndicator.GetComponent<Glinting>();
+        if (lGlint)
+        {
+            if (targetData.LeftTurnLastSign != targetData.LeftTurnNextSign)
+            {
+                if (targetData.LeftTurnNextSign == 1)
+                    lGlint.StartGlinting();
+                else
+                    lGlint.StopGlinting();
+            }
+        }
+        if (rGlint)
+        {       
+            if (targetData.RightTurnLastSign != targetData.RightTurnNextSign)
+            {
+                if (targetData.RightTurnNextSign == 1)
+                {
+                    rGlint.StartGlinting();
+                }
+                else
+                    rGlint.StopGlinting();
+            }
+        }
     }
     
     private void OnTweenComplete()
@@ -122,10 +155,15 @@ public class SignalDataSimulator : MonoBehaviour
         {
             var data = new StatusTweenData();
             data.TweenTime = (float)(DateTime.Parse(statusList[i + 1].Time) - DateTime.Parse(statusList[i].Time)).TotalMilliseconds / 1000;
-            data.SteeringWheelRot = Quaternion.Euler(new Vector3(0, (float)Math.Floor((double)-statusList[i + 1].Fxpzj / 5400 * 700), 0));
+            data.SteerLastAngle = (float)Math.Floor((double)-statusList[i].Fxpzj / 5400 * 700);
+            data.SteerNextAngle = (float)Math.Floor((double)-statusList[i + 1].Fxpzj / 5400 * 700);
             data.FrontWheelRot = Quaternion.Euler(new Vector3(0, (float)(Math.Floor((double)-statusList[i + 1].Fxpzj / 5400 * 22)), 0));
             data.SpeedometerRot = Quaternion.Euler(new Vector3(0, statusList[i + 1].CarSpeed * 10, 0));
             data.TachometerRot = Quaternion.Euler(new Vector3(0, (float)statusList[i + 1].EngineSpeed * 240 / 8000, 0));
+            data.LeftTurnLastSign = statusList[i].LeftTurnIndicatorSign;
+            data.LeftTurnNextSign = statusList[i + 1].LeftTurnIndicatorSign;
+            data.RightTurnLastSign = statusList[i].RightTurnSign;
+            data.RightTurnNextSign = statusList[i + 1].RightTurnSign;
             statusTweenDatas.Add(data);
         }
 

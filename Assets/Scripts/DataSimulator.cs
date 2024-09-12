@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
 
 public class DataSimulator : MonoBehaviour
@@ -10,10 +9,6 @@ public class DataSimulator : MonoBehaviour
     public Transform[] BackWheelTrans; //汽车后轮
     public GameObject OutsideCamera; //外部摄像头
     public GameObject InsideCamera; //内部摄像头
-
-    private bool isCarForward; //汽车是否向前
-    private float wheelRadius = 3.6f; //汽车轮子半径
-    private float wheelcircumference;
     
     private int currentTweenIndex = -1; //当前正在处理的动画索引，-1表示没有动画正在播放  
     private float currentTweenTime = 0f; //当前动画的已用时间
@@ -25,8 +20,6 @@ public class DataSimulator : MonoBehaviour
     {
         public Vector3 TargetPos;
         public Quaternion TargetRot;
-        public Quaternion WheelRollRot;
-        public bool IsCarForward;
         public float TweenTime;
     }
 
@@ -34,8 +27,6 @@ public class DataSimulator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        wheelcircumference = (float)(2 * Math.PI * wheelRadius);
-        
         GetTweenData();
         
         // 开始播放第一个动画  
@@ -60,13 +51,18 @@ public class DataSimulator : MonoBehaviour
                 // 插值位置和旋转（这里假设 targetTransform 是当前动画的目标）  
                 Car.position = Vector3.Lerp(Car.position,  targetData.TargetPos, t);  
                 Car.rotation = Quaternion.Lerp(Car.rotation, targetData.TargetRot, t);
-                foreach (var wheel in FrontWheelTrans)
+                
+                if (Vector3.Distance(Car.position,  targetData.TargetPos) > 0.01f)
                 {
-                    wheel.GetChild(0).localRotation = Quaternion.Lerp( wheel.GetChild(0).localRotation,targetData.WheelRollRot, t);
-                }
-                foreach (var wheel in BackWheelTrans)
-                {
-                    wheel.localRotation = Quaternion.Lerp( wheel.localRotation,targetData.WheelRollRot, t);
+                    var dot = Vector3.Dot(targetData.TargetPos - Car.position, new Vector3(0,0,-1));
+                    foreach (var wheel in FrontWheelTrans)
+                    {
+                        wheel.GetChild(0).Rotate(new Vector3(dot > 0 ? 10 : -10,0,0));
+                    }
+                    foreach (var wheel in BackWheelTrans)
+                    {
+                        wheel.Rotate(new Vector3(dot > 0 ? 10 : -10, 0, 0));
+                    }
                 }
                 
                 // 更新当前动画的时间  
@@ -107,22 +103,12 @@ public class DataSimulator : MonoBehaviour
     private void GetTweenData()
     {
         var posList = DataInputer.Instance.PointDatas;
-        var originWheelEuler = 0f;
         for (var i = 0; i < posList.Count - 1; i++)
         {
             var data = new CarTweenData();
             data.TweenTime = (float)(DateTime.Parse(posList[i + 1].Time) - DateTime.Parse(posList[i].Time)).TotalMilliseconds / 1000;
             data.TargetPos = GeoConverter.LatLonToLocal(posList[i + 1].BasePoint.Lat, posList[i + 1].BasePoint.Lng);
             data.TargetRot = Quaternion.Euler(new Vector3(0, (float)posList[i + 1].CarHeardDirection, 0));
-            var lastPos = GeoConverter.LatLonToLocal(posList[i].BasePoint.Lat, posList[i].BasePoint.Lng);
-            var dot = Vector3.Dot(transform.forward, data.TargetPos - lastPos);
-            data.IsCarForward = dot >= 0;
-            var angle = Vector3.Distance(lastPos, data.TargetPos) / wheelcircumference * 360;
-            originWheelEuler += originWheelEuler + (data.IsCarForward ? -angle : angle);
-            if (Mathf.Abs(originWheelEuler) >= 360)
-                originWheelEuler %= 360;
-            // Debug.LogError($"{angle},{originWheelEuler}");
-            data.WheelRollRot = Quaternion.Euler(new Vector3(originWheelEuler, 0, 0));
             posTweenDatas.Add(data);
         }
         
