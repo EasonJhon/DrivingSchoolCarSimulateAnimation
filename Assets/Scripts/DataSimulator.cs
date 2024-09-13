@@ -50,30 +50,28 @@ public class DataSimulator : MonoBehaviour
             {
                 // 计算插值比例  
                 //var t = currentTweenTime / tweenTime;
-                var t = 0.02f / tweenTime;
+                var t = 0.001f / tweenTime;
                 t = Mathf.Clamp01(t);
 
                 // 插值位置和旋转（这里假设 targetTransform 是当前动画的目标）  
                 Car.position = Vector3.Lerp(Car.position, targetData.TargetPos, t);
                 Car.rotation = Quaternion.Lerp(Car.rotation, targetData.TargetRot, t);
-
-                if (Vector3.Distance(Car.position, targetData.TargetPos) > 0.001f)
+                
+                //TODO 轮胎沿x轴平滑转动
+                var dot = Vector3.Dot(targetData.TargetPos - Car.position, new Vector3(0, 0, -1));
+                foreach (var wheel in FrontWheelTrans)
                 {
-                    var dot = Vector3.Dot(targetData.TargetPos - Car.position, new Vector3(0, 0, -1));
-                    foreach (var wheel in FrontWheelTrans)
-                    {
-                        wheel.GetChild(0)
-                            .Rotate(new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0,
-                                0));
-                    }
-
-                    foreach (var wheel in BackWheelTrans)
-                    {
-                        wheel.Rotate(
-                            new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0, 0));
-                    }
+                    wheel.GetChild(0)
+                        .Rotate(new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0,
+                            0));
                 }
 
+                foreach (var wheel in BackWheelTrans)
+                {
+                    wheel.Rotate(
+                        new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0, 0));
+                }
+                
                 // 更新当前动画的时间  
                 currentTweenTime += Time.deltaTime;
             }

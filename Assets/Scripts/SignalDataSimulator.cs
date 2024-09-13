@@ -55,7 +55,7 @@ public class SignalDataSimulator : MonoBehaviour
             {
                 // 计算插值比例  
                 //var t = currentTweenTime / tweenTime;  
-                var t = 0.02f /tweenTime;
+                var t = 0.001f /tweenTime;
                 t = Mathf.Clamp01(t);  
   
                 // 插值位置和旋转（这里假设 targetTransform 是当前动画的目标）  

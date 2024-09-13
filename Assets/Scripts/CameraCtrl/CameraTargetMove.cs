@@ -6,7 +6,7 @@ public class CameraTargetMove : MonoBehaviour
     public Transform target;
 
     // 缩放系数
-    private float distance = 10.0f;
+    private float distance = 5.0f;
 
     // 左右滑动移动速度
     private float xSpeed = 250.0f;
