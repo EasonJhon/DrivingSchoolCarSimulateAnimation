@@ -31,9 +31,9 @@ public class DataSimulator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        WheelCircumference = 2 * Mathf.PI * 0.6f;
+        WheelCircumference = 2 * Mathf.PI * WheelRadius;
         GetTweenData();
-        
+
         // 开始播放第一个动画  
         if (posTweenDatas.Count > 0)
         {
@@ -57,17 +57,20 @@ public class DataSimulator : MonoBehaviour
                 Car.position = Vector3.Lerp(Car.position, targetData.TargetPos, t);
                 Car.rotation = Quaternion.Lerp(Car.rotation, targetData.TargetRot, t);
 
-                if (Vector3.Distance(Car.position, targetData.TargetPos) > 0.01f)
+                if (Vector3.Distance(Car.position, targetData.TargetPos) > 0.001f)
                 {
                     var dot = Vector3.Dot(targetData.TargetPos - Car.position, new Vector3(0, 0, -1));
                     foreach (var wheel in FrontWheelTrans)
                     {
-                        wheel.GetChild(0).Rotate(new Vector3(dot > 0 ? targetData.WheelAngle : -targetData.WheelAngle, 0, 0));
+                        wheel.GetChild(0)
+                            .Rotate(new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0,
+                                0));
                     }
 
                     foreach (var wheel in BackWheelTrans)
                     {
-                        wheel.Rotate(new Vector3(dot > 0 ? targetData.WheelAngle : -targetData.WheelAngle, 0, 0));
+                        wheel.Rotate(
+                            new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0, 0));
                     }
                 }
 
