@@ -9,7 +9,7 @@ public class DataSimulator : MonoBehaviour
     public Transform[] BackWheelTrans; //汽车后轮
     public GameObject OutsideCamera; //外部摄像头
     public GameObject InsideCamera; //内部摄像头
-    public float WheelRadius = 0.6f;
+    public float WheelRadius = 0.42f;
     public float WheelCircumference;
 
     private int currentTweenIndex = -1; //当前正在处理的动画索引，-1表示没有动画正在播放  
@@ -18,11 +18,15 @@ public class DataSimulator : MonoBehaviour
     private CarTweenData targetData; //目标数据
     private Action onTweenComplete; //动画完成时要调用的回调
 
+    private float currentWheelAngle = 0f;
+
     private class CarTweenData
     {
         public Vector3 TargetPos;
         public Quaternion TargetRot;
         public float WheelAngle;
+        public float WheelLastAngle;
+        public float WheelNextAngle;
         public float TweenTime;
     }
 
@@ -49,29 +53,32 @@ public class DataSimulator : MonoBehaviour
             if (currentTweenTime < tweenTime)
             {
                 // 计算插值比例  
-                //var t = currentTweenTime / tweenTime;
-                var t = 0.001f / tweenTime;
+                // var t = currentTweenTime / tweenTime;
+                var t = Time.deltaTime / tweenTime;
                 t = Mathf.Clamp01(t);
 
                 // 插值位置和旋转（这里假设 targetTransform 是当前动画的目标）  
                 Car.position = Vector3.Lerp(Car.position, targetData.TargetPos, t);
                 Car.rotation = Quaternion.Lerp(Car.rotation, targetData.TargetRot, t);
                 
-                //TODO 轮胎沿x轴平滑转动
-                var dot = Vector3.Dot(targetData.TargetPos - Car.position, new Vector3(0, 0, -1));
+                
+                var t2 = Time.deltaTime /tweenTime;
+                var newAngle = Mathf.Lerp(currentWheelAngle, targetData.WheelNextAngle, t2);
                 foreach (var wheel in FrontWheelTrans)
                 {
-                    wheel.GetChild(0)
-                        .Rotate(new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0,
-                            0));
+                    wheel.GetChild(0).localRotation = Quaternion.SlerpUnclamped(wheel.GetChild(0).localRotation,
+                        Quaternion.Euler(new Vector3(targetData.WheelNextAngle, 0, 0)),t2);
+                    //wheel.GetChild(0).Rotate(newAngle -  currentWheelAngle , 0, 0, Space.Self);
                 }
 
                 foreach (var wheel in BackWheelTrans)
                 {
-                    wheel.Rotate(
-                        new Vector3(dot > 0 ? targetData.WheelAngle / 2 : -targetData.WheelAngle / 2, 0, 0));
+                    wheel.localRotation = Quaternion.SlerpUnclamped(wheel.localRotation,
+                        Quaternion.Euler(new Vector3(targetData.WheelNextAngle, 0, 0)),t2);
+                    //wheel.Rotate(newAngle - currentWheelAngle, 0, 0, Space.Self);
                 }
-                
+
+                currentWheelAngle = newAngle;
                 // 更新当前动画的时间  
                 currentTweenTime += Time.deltaTime;
             }
@@ -87,6 +94,7 @@ public class DataSimulator : MonoBehaviour
         targetData = newData;
         tweenTime = newData.TweenTime;
         currentTweenTime = 0f; //重置时间
+        currentWheelAngle = FrontWheelTrans[0].localEulerAngles.x;
         onTweenComplete = onComplete;
     }
 
@@ -112,6 +120,7 @@ public class DataSimulator : MonoBehaviour
     private void GetTweenData()
     {
         var posList = DataInputer.Instance.PointDatas;
+        var wheelAngle = 0f;
         for (var i = 0; i < posList.Count - 1; i++)
         {
             var data = new CarTweenData();
@@ -122,7 +131,13 @@ public class DataSimulator : MonoBehaviour
             var lastPos = GeoConverter.LatLonToLocal(posList[i].BasePoint.Lat, posList[i].BasePoint.Lng);
             var distance = Vector3.Distance(lastPos, data.TargetPos);
             var wheelDistance = distance / WheelCircumference;
-            data.WheelAngle = wheelDistance * 360;
+            var dot = Vector3.Dot(data.TargetPos - lastPos, Car.forward);
+            // Debug.LogError($"{(dot > 0 ? "正": "反")}");
+            data.WheelAngle = dot > 0 ? 1 : -1 * wheelDistance * 360;
+            data.WheelLastAngle = wheelAngle;
+            data.WheelNextAngle = (wheelAngle + data.WheelAngle) % 360;
+            wheelAngle = data.WheelNextAngle;
+            // Debug.LogError($"{data.WheelLastAngle},{data.WheelNextAngle}");
             posTweenDatas.Add(data);
         }
 

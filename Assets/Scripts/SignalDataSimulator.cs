@@ -55,7 +55,7 @@ public class SignalDataSimulator : MonoBehaviour
             {
                 // 计算插值比例  
                 //var t = currentTweenTime / tweenTime;  
-                var t = 0.001f /tweenTime;
+                var t = Time.deltaTime /tweenTime;
                 t = Mathf.Clamp01(t);  
   
                 // 插值位置和旋转（这里假设 targetTransform 是当前动画的目标）  
@@ -65,7 +65,7 @@ public class SignalDataSimulator : MonoBehaviour
                 }
 
                 var t2 = currentTweenTime / tweenTime; 
-                float newAngle = Mathf.LerpAngle(targetData.SteerLastAngle, targetData.SteerNextAngle, t2);
+                var newAngle = Mathf.LerpAngle(targetData.SteerLastAngle, targetData.SteerNextAngle, t2);
                 SteeringWheel.localRotation = Quaternion.Euler(0,newAngle, 0);
                 Speedometer.localRotation = Quaternion.Lerp(Speedometer.localRotation,targetData.SpeedometerRot, t);
                 Tachometer.localRotation = Quaternion.Lerp(Tachometer.localRotation,targetData.TachometerRot, t);
